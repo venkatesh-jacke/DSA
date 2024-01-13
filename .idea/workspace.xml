@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA-JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeChef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/ReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/ToCamelCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/BinaryExponential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FactorialOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci_Series.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Head_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Indirect_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Nested_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Sum_Of_First_N_Natural_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Tail_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/TaylorsSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Tree_Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reverse_a_string.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/CheckCircularSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/Gcd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/IsPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/LargestNumber_In_A_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zoho/isPalindrome.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
