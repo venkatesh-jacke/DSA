@@ -11,15 +11,15 @@ public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             // Get the index of the pivot element after partitioning
-            int pi = partition(arr, low, high);   //Partition Index
+            int pi = partition_high(arr, low, high);   //Partition Index
             // Recursively sort the subarrays before and after the pivot
             quickSort(arr, low, pi - 1);
             quickSort(arr, pi + 1, high);
         }
     }
 
-    // Partitioning method to place the pivot in its correct position
-    public static int partition2(int[] arr, int low, int high) {
+    // Partitioning method to place the pivot in its correct position  Pivot is first elemnt
+    public static int partition_low(int[] arr, int low, int high) {
         int pivot = arr[low];
         int i = low;
         int j = high;
@@ -43,7 +43,9 @@ public class QuickSort {
     }
 
 
-    public static int partition(int[] arr, int low, int high) {
+
+    //Pivot is last element
+    public static int partition_high(int[] arr, int low, int high) {
         // Choose the rightmost element as the pivot
         int pivot = arr[high];
         // Initialize the index of the smaller element
@@ -65,6 +67,8 @@ public class QuickSort {
         // Return the index of the pivot element
         return i + 1;
     }
+
+
 
 
     // Utility method to swap elements in an array
