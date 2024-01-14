@@ -1,8 +1,13 @@
 package Sorting;
 
+import java.util.Arrays;
+
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
+       // int[] arr = {5,4,3,2,1};
+        int arr[]={1,2,3,4,5};
+        printArray(arr);
+        System.out.println();
         int iterations = bubbleSort(arr);
 
         printArray(arr);
@@ -17,14 +22,17 @@ public class BubbleSort {
         boolean swapped;
         int itr = 0;
         for (int i = 0; i < size - 1; i++) {
-            swapped=false;
+            swapped = false;
             for (int j = 0; j < size - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
+                    System.out.println("swap " + arr[j] + " and " + arr[j + 1]);
                     swap(arr, j, j + 1);
-                    swapped=true;
+                    System.out.println(Arrays.toString(arr));
+                    swapped = true;
                 }
-                itr++;
-                if(!swapped){
+              itr++;
+                if (!swapped) {
+                    System.out.println("No swap");
                     break;
                 }
             }
