@@ -41,6 +41,6 @@ A stack is a data structure that follows the Last In, First Out (LIFO) principle
 * Using ArrayList (No size limit)
 * Using linked list (No size limit)
 
-- **[ArrayStack](../ArrayStack.java):** Implementation using an array with a fixed size.
-- **[ArrayListStack](../Stack_ArrayList.java):** Implementation using an ArrayList with no size limit.
-- **[LinkedListStack](../Stack_LinkedList.java):** Implementation using a linked list with no size limit.
+- **[ArrayStack](../Stack/ArrayStack.java):** Implementation using an array with a fixed size.
+- **[ArrayListStack](../Stack/Stack_ArrayList.java):** Implementation using an ArrayList with no size limit.
+- **[LinkedListStack](../Stack/Stack_LinkedList.java):** Implementation using a linked list with no size limit.
