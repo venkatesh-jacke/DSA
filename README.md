@@ -36,9 +36,8 @@ The repository is organized by categories, including data structures and algorit
 
 ## Let's Connect!
 
-- **LinkedIn:** [Your LinkedIn Profile]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/venkatesh-e-700a41204/))
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/venkatesh-e-700a41204/)
 - **GitHub:** [Your GitHub Profile](https://github.com/venkatesh-jacke)
-
 Feel free to connect with me, share your thoughts, and collaborate on DSA-related projects. Let's learn and grow together!
 
 Happy coding! 🚀
