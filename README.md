@@ -31,7 +31,7 @@ The repository is organized by categories, including data structures and algorit
 
 ## How to Use
 
-- Each category has its own folder with detailed explanations and implementations in various programming languages (e.g., C++, Java, Python).
+- Each category has its own folder with detailed explanations and implementations in various Java programming languages.
 - Feel free to explore the code, learn from the explanations, and use it as a reference for your own projects.
 
 ## Let's Connect!
