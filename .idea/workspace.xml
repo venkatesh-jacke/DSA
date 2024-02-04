@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="jan 20">
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/SetBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/DoublyLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/SingularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue/QueueUsingTwoStack.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Graph representation">
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/DirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/UndirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Queue/QueueDS.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +46,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DSA-JAVA\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Graphs.Representations.AdjacencyMatrix" />
+      <recent name="Graphs.Representations.AdjacencyList" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CircularLinkedList">
+  <component name="RunManager" selected="Application.Graphs.Representations.AdjacencyMatrix.DirectedGraph">
     <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.CircularLinkedList" />
       <module name="DSA-JAVA" />
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DoublyLL" />
+    <configuration name="DirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyList.DirectedGraph" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Graphs.Representations.AdjacencyList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingularLinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingularLinkedList" />
+    <configuration name="Graphs.Representations.AdjacencyMatrix.DirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyMatrix.DirectedGraph" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Graphs.Representations.AdjacencyMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingularLinkedList (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingularLinkedList" />
+    <configuration name="Graphs.Representations.AdjacencyMatrix.UndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyMatrix.UndirectedGraph" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingularLinkedList (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingularLinkedList" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Graphs.Representations.AdjacencyMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingularLinkedList" />
+    <configuration name="UndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyList.UndirectedGraph" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Graphs.Representations.AdjacencyList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.DirectedGraph" />
+        <item itemvalue="Application.DirectedGraph" />
+        <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.UndirectedGraph" />
+        <item itemvalue="Application.UndirectedGraph" />
         <item itemvalue="Application.CircularLinkedList" />
-        <item itemvalue="Application.SingularLinkedList (3)" />
-        <item itemvalue="Application.SingularLinkedList (2)" />
-        <item itemvalue="Application.SingularLinkedList (1)" />
-        <item itemvalue="Application.DoublyLL" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705755717222</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="jan 26">
+      <created>1706278574316</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706278574316</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,7 +256,9 @@
     <MESSAGE value="added recursion playlist" />
     <MESSAGE value="hashset treeset linkedhashset" />
     <MESSAGE value="jan 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="jan 20" />
+    <MESSAGE value="jan 26" />
+    <MESSAGE value="Graph representation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graph representation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
