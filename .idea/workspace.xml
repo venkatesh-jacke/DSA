@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Graph representation">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/DirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/UndirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/UndirectedGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Graphs.Representations.AdjacencyMatrix.DirectedGraph">
+  <component name="RunManager" selected="Application.Graphs.Representations.AdjacencyMatrix.UndirectedGraph">
     <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.CircularLinkedList" />
       <module name="DSA-JAVA" />
@@ -145,10 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.DirectedGraph" />
-        <item itemvalue="Application.DirectedGraph" />
         <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.UndirectedGraph" />
         <item itemvalue="Application.UndirectedGraph" />
+        <item itemvalue="Application.DirectedGraph" />
+        <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.DirectedGraph" />
         <item itemvalue="Application.CircularLinkedList" />
       </list>
     </recent_temporary>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706278574316</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Graph representation">
+      <created>1707046883145</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707046883145</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -557,6 +563,21 @@
           <url>file://$PROJECT_DIR$/src/LinkedList/SingularLinkedList.java</url>
           <line>135</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
