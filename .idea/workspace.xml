@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Graph representation">
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="bfs and dfs">
+      <change afterPath="$PROJECT_DIR$/src/Google/Round1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/AllSubSequenceOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/AllUniqueSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/KeypadCombination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Arrays/Array.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/Representations/AdjacencyList/UndirectedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/Representations/AdjacencyList/UndirectedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Recursion/TowerOfHanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Recursion/TowerOfHanoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Array.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManupulation/SetBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManupulation/SetBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyMatrix/UndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +60,13 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Graphs.Representations.AdjacencyMatrix.UndirectedGraph">
-    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.CircularLinkedList" />
+  <component name="RunManager" selected="Application.AllSubSequenceOfString">
+    <configuration name="AllSubSequenceOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.AllSubSequenceOfString" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyList.DirectedGraph" />
+    <configuration name="AllUniqueSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.AllUniqueSubsequence" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.Representations.AdjacencyList.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graphs.Representations.AdjacencyMatrix.DirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyMatrix.DirectedGraph" />
+    <configuration name="KeypadCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.KeypadCombination" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.Representations.AdjacencyMatrix.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,51 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graphs.Representations.AdjacencyMatrix.UndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyMatrix.UndirectedGraph" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sample" />
       <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.Representations.AdjacencyMatrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingularLinkedList" />
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.TowerOfHanoi" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingularLinkedList" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Representations.AdjacencyList.UndirectedGraph" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.Representations.AdjacencyList.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.UndirectedGraph" />
-        <item itemvalue="Application.UndirectedGraph" />
-        <item itemvalue="Application.DirectedGraph" />
-        <item itemvalue="Application.Graphs.Representations.AdjacencyMatrix.DirectedGraph" />
-        <item itemvalue="Application.CircularLinkedList" />
+        <item itemvalue="Application.AllSubSequenceOfString" />
+        <item itemvalue="Application.AllUniqueSubsequence" />
+        <item itemvalue="Application.KeypadCombination" />
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707046883145</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bfs and dfs">
+      <created>1707061671640</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707061671640</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,7 +249,8 @@
     <MESSAGE value="jan 20" />
     <MESSAGE value="jan 26" />
     <MESSAGE value="Graph representation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph representation" />
+    <MESSAGE value="bfs and dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="bfs and dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,6 +564,41 @@
           <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
           <line>59</line>
           <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/AllSubSequenceOfString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/AllSubSequenceOfString.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/AllSubSequenceOfString.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

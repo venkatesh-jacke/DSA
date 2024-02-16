@@ -33,8 +33,8 @@ public class SetBits {
                 Return the final count, which represents the number of set bits in the original value of n.
                 The key idea behind this algorithm is that each iteration of the loop clears the rightmost set bit in n,
                 and the loop continues until there are no more set bits.
-                The number of iterations (and thus, the value of count) c
-                orresponds to the number of set bits in the binary representation of the original number.
+                The number of iterations (and thus, the value of count)
+                corresponds to the number of set bits in the binary representation of the original number.
  */
 
     static int brian_kerninghan(int n){

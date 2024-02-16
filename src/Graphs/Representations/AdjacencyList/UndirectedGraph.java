@@ -12,7 +12,7 @@ public class UndirectedGraph {
         bfs(graph, n, 0, new boolean[n]);
         System.out.println();
         System.out.println("DFS Traversal for given graph is ");
-        dfs(graph, n, 0, new boolean[n]);
+        dfs(graph,0, new boolean[n]);
         System.out.println();
         System.out.println("DFS Traversal for given graph is ");
         dfs2(graph, 0, new boolean[n]);
@@ -48,7 +48,7 @@ public class UndirectedGraph {
         }
     }
 
-    static void dfs(Map<Integer, ArrayList<Integer>> graph, int n, int source, boolean[] visited) {
+    static void dfs(Map<Integer, ArrayList<Integer>> graph, int source, boolean[] visited) {
         Stack<Integer> stack = new Stack<>();
         stack.push(source);
         while (!stack.isEmpty()) {
