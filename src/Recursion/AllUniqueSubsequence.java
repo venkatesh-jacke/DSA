@@ -20,3 +20,11 @@ public class AllUniqueSubsequence {
         allSubSequence(str,i+1,ans,res);
     }
 }
+/*
+I/0 ---> abc
+
+
+O/P --->aaa
+        aa
+        a
+ */

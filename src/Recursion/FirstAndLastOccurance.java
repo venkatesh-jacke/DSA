@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FirstAndLastOccurance {
     public static void main(String[] args) {
-        String str = "abcdacd";
+        String str = "xabcdaxcd";
         char x = 'x';
         System.out.println(Arrays.toString(firstAndLastOccurance(str, 0, x, -1, -1)));
     }
@@ -19,3 +19,11 @@ public class FirstAndLastOccurance {
 
     }
 }
+
+/*
+I/0 ---> "xabcdaxcd"   "x"
+
+
+O/P ---> [0, 6]
+
+ */

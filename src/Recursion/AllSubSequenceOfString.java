@@ -16,3 +16,16 @@ public class AllSubSequenceOfString {
         subSequences(str,i+1,ans);
     }
 }
+/*
+I/0 ---> abc
+
+
+O/P --->abc
+        ab
+        ac
+        a
+        bc
+        b
+        c
+
+ */
