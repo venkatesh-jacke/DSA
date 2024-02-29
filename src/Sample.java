@@ -1,22 +1,24 @@
+import com.sun.org.apache.bcel.internal.generic.FSUB;
+import com.sun.org.apache.bcel.internal.generic.RETURN;
+import sun.security.x509.InvalidityDateExtension;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Sample {
 
     public static void main(String[] args) {
-       String str="abbccda";
-        fun(str,0, new char[26],"");
+
+        System.out.println(groupSum6(0, new int[]{2, 4, 8}, 14));
 
 
     }
 
-    static void  fun(String str, int i, char[] arr,String ans) {
-        char cur= str.charAt(i);
-        if(i==str.length()-1){
-            System.out.println(ans);
-            return;
-        }
-        if(arr[cur-'a']==0){
-            arr[cur-'a']++;
-            ans=ans+cur;
-        }
-            fun(str, i + 1, arr, ans);
+
+    static boolean groupSum6(int start, int[] nums, int target) {
+        if (start >= nums.length)
+            return target == 0;
+        if (nums[start] == 6) return groupSum6(start + 1, nums, target - nums[start]);
+        return groupSum6(start + 1, nums, target - nums[start]) || groupSum6(start + 1, nums, target);
     }
 }

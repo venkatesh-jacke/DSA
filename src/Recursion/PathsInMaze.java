@@ -4,8 +4,8 @@ public class PathsInMaze {
     public static void main(String[] args) {
         int n = 3;
         int m = 3;
-        int i = 2;
-        int j = 1;
+        int i = 0;
+        int j = 0;
         System.out.println(printPaths(n, m, i, j));
     }
 

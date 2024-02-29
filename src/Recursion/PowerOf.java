@@ -2,8 +2,8 @@ package Recursion;
 
 public class PowerOf {
     public static void main(String[] args) {
-        System.out.println(powerOf(2,20));
-        System.out.println(powerOf_2(2,20));
+        System.out.println(powerOf(2,10));
+        System.out.println(powerOf_2(2,10));
 
     }
 
