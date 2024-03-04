@@ -2,24 +2,24 @@ package Queue;
 
 public class CircularQueue {
     public static void main(String[] args) {
-        QueueY.MyQueue myQueue = new QueueY.MyQueue(5);
-        myQueue.add(1);
-        myQueue.add(2);
-        myQueue.add(3);
-        myQueue.add(4);
-        myQueue.add(5);
-        System.out.println(myQueue.remove());
-        myQueue.add(6);
-        System.out.println(myQueue.remove());
-        myQueue.add(7);
-        while(!myQueue.isEmpty()){
-            System.out.println(myQueue.peek());
-            myQueue.remove();
-        }
+     MyCircularQueue myCircularQueue= new MyCircularQueue(5);
+     myCircularQueue.add(1);
+     myCircularQueue.add(2);
+     myCircularQueue.add(3);
+     myCircularQueue.add(4);
+     myCircularQueue.add(5);
+     myCircularQueue.add(6);
+     myCircularQueue.add(7);
+
+     while(!myCircularQueue.isEmpty()){
+         System.out.println(myCircularQueue.peek());
+         myCircularQueue.remove();
+     }
+
 
     }
 
-    class MyCircularQueue {
+   static class MyCircularQueue {
         int size;
         int arr[];
 
@@ -32,10 +32,14 @@ public class CircularQueue {
             arr = new int[size];
         }
 
+
+        //I' am checking if front is the next element to the rear
         boolean isFull() {
             return (rear + 1) % size == front;
         }
 
+
+        //Base condition in circular queue front && rear be -1
         boolean isEmpty() {
             return rear == -1 && front == -1;
         }
@@ -65,6 +69,7 @@ public class CircularQueue {
                 rear = front = -1;
             } else {
                 front = (front + 1) % size;
+                //front++;
             }
             return element;
         }
@@ -77,3 +82,10 @@ public class CircularQueue {
         }
     }
 }
+/*
+Note:-
+we used % operator to increment the index/
+'%' operator plays a crucial role in achieving the circular behavior of the queue
+by handling index wrapping and ensuring that indices stay within the bounds of the underlying array.
+
+*/
