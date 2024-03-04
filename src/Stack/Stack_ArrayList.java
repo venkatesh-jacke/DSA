@@ -22,6 +22,7 @@ public class Stack_ArrayList {
         }
 
         int peek(){
+            if(list.isEmpty()) return -1;
             int top = list.get(list.size()-1);
             return top;
         }
@@ -41,3 +42,6 @@ public class Stack_ArrayList {
 
     }
 }
+
+//from static u can call only another static things
+//from static u cant call a non-static context

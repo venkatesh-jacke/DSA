@@ -8,6 +8,7 @@ public class QueueY {
         myQueue.add(3);
         myQueue.add(4);
         myQueue.add(5);
+        System.out.println(myQueue);
 
         while(!myQueue.isEmpty()){
             System.out.println(myQueue.peek());
@@ -59,7 +60,17 @@ public class QueueY {
             }
             return arr[0];
         }
-    }
+
+       @Override
+       public String toString() {
+            StringBuilder sb = new StringBuilder();
+           for(int i=0;i<size;i++){
+               sb.append(arr[i]+" ");
+
+           }
+           return sb.toString();
+       }
+   }
 
 
 /*    Initially
