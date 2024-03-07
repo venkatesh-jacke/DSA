@@ -4,7 +4,8 @@ import java.util.Stack;
 
 public class BraceChecker {
     public static void main(String[] args) {
-        String str = ")(}{][";
+        String str =  "(({{[[]]}}))" ;
+        //System.out.println(isValid(str));
         System.out.println(isValid2(str));
     }
 
@@ -20,11 +21,11 @@ public class BraceChecker {
     }
 
     static public boolean isValid2(String braces) {
-        for (int i = 0; i < braces.length(); i++) {
+        int lengthOfBraces = braces.length();
+        for(int i = 0; i <  lengthOfBraces; i++){
             braces = braces.replace("{}", "").replace("[]", "").replace("()", "");
         }
         return braces.isEmpty();
     }
-
 
 }
