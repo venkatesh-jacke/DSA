@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="hashMap methods">
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/ArrayDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/BraceChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/FindMissingLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/PangramChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/PerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/LinedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/LinedList/MergeTwoSortedLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/LinedList/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Palindrome.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="07-03-24">
+      <change afterPath="$PROJECT_DIR$/src/Tree/Inorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/PostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Preorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Queue/CircularQueue$MyCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Queue/CircularQueue$MyCircularQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Queue/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Queue/CircularQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Stack/Stack_ArrayList$StackAL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Stack/Stack_ArrayList$StackAL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Stack/Stack_ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Stack/Stack_ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +52,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BraceChecker">
+  <component name="RunManager" selected="Application.Inorder">
     <configuration name="BraceChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWars.BraceChecker" />
       <module name="DSA-JAVA" />
@@ -94,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.Main" />
+    <configuration name="Inorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Inorder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PangramChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.PangramChecker" />
+    <configuration name="PostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.PostOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeWars.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.PerfectSquare" />
+    <configuration name="Preorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Preorder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeWars.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inorder" />
+        <item itemvalue="Application.Preorder" />
+        <item itemvalue="Application.PostOrder" />
         <item itemvalue="Application.BraceChecker" />
         <item itemvalue="Application.FindMissingLetter" />
-        <item itemvalue="Application.PerfectSquare" />
-        <item itemvalue="Application.PangramChecker" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +277,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709810132323</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="07-03-24">
+      <created>1709820575017</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709820575017</updated>
+    </task>
+    <task id="LOCAL-00022" summary="07-03-24">
+      <created>1709821419865</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709821419865</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,7 +309,8 @@
     <MESSAGE value="29-02-14" />
     <MESSAGE value="04-03-2024" />
     <MESSAGE value="hashMap methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashMap methods" />
+    <MESSAGE value="07-03-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="07-03-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,33 +712,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/BraceChecker.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
