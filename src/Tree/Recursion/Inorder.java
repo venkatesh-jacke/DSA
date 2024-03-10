@@ -1,9 +1,11 @@
-package Tree;
+package Tree.Recursion;
+
+import Tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PostOrder {
+public class Inorder {
 
     static List<Integer> result= new ArrayList<>();
     public static void main(String[] args) {
@@ -16,13 +18,13 @@ public class PostOrder {
         left.right= new TreeNode(5);
         right.left= new TreeNode(6);
         right.right= new TreeNode(7);
-        System.out.println(postOrder(root));
+        System.out.println(inOrder(root));
     }
-    static List<Integer> postOrder(TreeNode root){
+    static List<Integer> inOrder(TreeNode root){
         if(root!=null){
-            postOrder(root.left);
-            postOrder(root.right);
+            inOrder(root.left);
             result.add(root.data);
+            inOrder(root.right);
         }
         return result;
     }
@@ -36,7 +38,8 @@ Binary-Tree
     / \ / \
    4  5 6  7
 
- PostOrder (Left-Right-Root)
- [4, 5, 2, 6, 7, 3, 1]
+InOrder (Left-Root-Right)
+[4, 2, 5, 1, 6, 3, 7]
 
 */
+
