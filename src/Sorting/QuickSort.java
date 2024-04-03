@@ -1,13 +1,14 @@
 package Sorting;
 
+import java.util.Arrays;
+
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        int[] arr = {5, 4, 3, 2, 1};
         quickSort(arr, 0, arr.length - 1);
-        printArray(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
-    // Main QuickSort method
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             // Get the index of the pivot element after partitioning
@@ -28,7 +29,6 @@ public class QuickSort {
             while (arr[i] <= pivot && i <= high - 1) {
                 i++;
             }
-
             while (arr[j] > pivot && j >= low + 1) {
                 j--;
             }
@@ -43,10 +43,8 @@ public class QuickSort {
     }
 
 
-
     //Pivot is last element
     public static int partition_high(int[] arr, int low, int high) {
-        // Choose the rightmost element as the pivot
         int pivot = arr[high];
         // Initialize the index of the smaller element
         int i = low - 1;
@@ -69,8 +67,6 @@ public class QuickSort {
     }
 
 
-
-
     // Utility method to swap elements in an array
     public static void swap(int[] arr, int index1, int index2) {
         int temp = arr[index1];
@@ -85,3 +81,23 @@ public class QuickSort {
         }
     }
 }
+/*
+Partition High
+ind = {0,1,2,3,4}
+arr = {5,4,3,2,1}
+
+pivot = 1  low=0 j=low  i=low-1
+we didnt find any values greater than 1 so the j stops at 2 i is standing in -1
+
+Now we have to place the pivot in its correct position
+swap(i+1, high) because high is always pivot here
+arr ={1,4,3,2,5}
+
+
+pivot = 5 low=1 j stands in 4 i stands in 5
+
+
+
+
+
+*/

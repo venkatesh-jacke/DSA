@@ -5,18 +5,18 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
        // int[] arr = {5,4,3,2,1};
-        int arr[]={1,2,3,4,5};
-        printArray(arr);
-        System.out.println();
+        int arr[]={5,0,1,3,4};
+        System.out.println("Before Sorting "+Arrays.toString(arr));
         int iterations = bubbleSort(arr);
-
-        printArray(arr);
+        System.out.println("After Sorting "+Arrays.toString(arr));
         System.out.println();
         System.out.println("No of iterations is " + iterations);
 
 
     }
 
+
+    //Time O(n*n)
     public static int bubbleSort(int[] arr) {
         int size = arr.length;
         boolean swapped;
@@ -31,10 +31,11 @@ public class BubbleSort {
                     swapped = true;
                 }
               itr++;
-                if (!swapped) {
-                    System.out.println("No swap");
-                    break;
-                }
+
+            }
+            if (!swapped) {
+                System.out.println("No swap");
+                break;
             }
         }
         return itr;
@@ -46,10 +47,28 @@ public class BubbleSort {
         arr[index2] = temp;
     }
 
-    // Utility method to print the elements of an array
-    public static void printArray(int[] arr) {
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-    }
 }
+
+
+/*
+Note:-
+In BubbleSort the larger element will move to the end in each iteration
+
+Dry run
+{5,4,3,2,1}
+
+4,5,3,2,1
+4,3,5,2,1
+4,3,2,5,1
+4,3,2,1,5
+
+3,4,2,1,5
+3,2,4,1,5
+3,2,1,4,5
+
+2,3,1,4,5
+2,1,3,4,5
+
+1,2,3,4,5
+
+*/

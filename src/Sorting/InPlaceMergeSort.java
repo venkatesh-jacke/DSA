@@ -1,11 +1,13 @@
 package Sorting;
 
 
+import java.util.Arrays;
+
 class InPlaceMergeSort {
     public static void main(String[] args) {
         int[] arr = {5, 5, 5, 4, 3, 2, 5, 1, 0};
         inPlaceMergeSort(arr, 0, arr.length - 1);
-        printArray(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     private static void inPlaceMergeSort(int[] arr, int start, int end) {
@@ -36,12 +38,6 @@ class InPlaceMergeSort {
                 j++;
                 mid++;
             }
-        }
-    }
-
-    public static void printArray(int[] arr) {
-        for (int num : arr) {
-            System.out.print(num + " ");
         }
     }
 }

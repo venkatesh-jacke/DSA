@@ -5,17 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Tree Traversal">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Josephus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Kadnanes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/DecreasingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/IncreasingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/Halloumi_Boxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/AreSame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/RomanConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dequeue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashSet/DesignHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/CountNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/CountNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/IsMirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/MaxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeMap/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Inorder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/PostOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Preorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA-JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA-JAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +63,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2Wl04sfY9vxqjdZD7uCYsEYFYoZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,6 +76,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -55,17 +92,18 @@
       <recent name="D:\DSA-JAVA\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tree.Interative" />
       <recent name="Graphs.Representations.AdjacencyMatrix" />
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InOrder">
-    <configuration name="InOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.InOrder" />
+  <component name="RunManager" selected="Application.Halloumi_Boxes">
+    <configuration name="Halloumi_Boxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.Halloumi_Boxes" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Interative.*" />
+          <option name="PATTERN" value="CodeForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Recursion.Inorder" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Recursion.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PreOrder" />
+    <configuration name="MergeSort_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort_2" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Interative.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Preorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Recursion.Preorder" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Recursion.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +150,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree.Interative.PostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PostOrder" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.Interative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InOrder" />
-        <item itemvalue="Application.Tree.Interative.PostOrder" />
-        <item itemvalue="Application.PreOrder" />
-        <item itemvalue="Application.Inorder" />
-        <item itemvalue="Application.Preorder" />
+        <item itemvalue="Application.Halloumi_Boxes" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort_2" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710075980855</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Tree Traversal">
+      <created>1710087537393</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710087537393</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -332,7 +371,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>9</line>
+          <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -341,58 +380,28 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/MergeSort.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/MergeSort.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/MergeSort.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/MergeSort.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/MergeSort.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/MergeSort.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/MergeSort_2.java</url>
-          <line>59</line>
+          <line>51</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -681,11 +690,6 @@
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.jdks/corretto-1.8.0_362/src.zip!/java/util/AbstractCollection.java</url>
-          <line>453</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Queue/CircularQueue.java</url>
           <line>60</line>
           <option name="timeStamp" value="160" />
@@ -747,7 +751,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>33</line>
+          <line>32</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -757,7 +761,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -767,13 +771,248 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="196" />
+          <line>31</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/RomanConversion.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/RomanConversion.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/AreSame.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/AreSame.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/AreSame.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/AreSame.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/AreSame.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/AreSame.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/CountNodes.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/CountNodes.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/CountNodes.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/CountNodes.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/CountNodes.java</url>
           <line>32</line>
-          <option name="timeStamp" value="197" />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/CountNodes.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Josephus.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Kadnanes.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Kadnanes.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Kadnanes.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Kadnanes.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dequeue/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="318" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

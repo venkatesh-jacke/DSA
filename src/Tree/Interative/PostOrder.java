@@ -2,9 +2,7 @@ package Tree.Interative;
 
 import Tree.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class PostOrder {
 
@@ -46,6 +44,39 @@ public class PostOrder {
             }
         }
         return result;
+    }
+
+    public static class LevelOrder {
+        static List<Integer> result = new ArrayList<>();
+
+        public static void main(String[] args) {
+            TreeNode root = new TreeNode(1);
+            TreeNode left = new TreeNode(2);
+            TreeNode right = new TreeNode(3);
+            root.left = left;
+            root.right = right;
+            left.left = new TreeNode(4);
+            left.right = new TreeNode(5);
+            right.left = new TreeNode(6);
+            right.right = new TreeNode(7);
+            System.out.println(levelOrder(root));
+        }
+
+        static List<Integer> levelOrder(TreeNode root) {
+            Queue<TreeNode> queue = new LinkedList<>();
+            queue.add(root);
+            while (!queue.isEmpty()) {
+                int temp = queue.size(); //calculate queue size for each level
+                while (temp > 0) {
+                    TreeNode cur = queue.remove();
+                    result.add(cur.data);
+                    if (cur.left != null) queue.add(cur.left); //add only if there is left child
+                    if (cur.right != null) queue.add(cur.right);    //add only if there is right child
+                    temp--;
+                }
+            }
+            return result;
+        }
     }
 }
 

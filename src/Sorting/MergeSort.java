@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = {5,5,4,3,2,1,0};
+        int[] arr = {5,4,3,2,1};
         int[] sortedArray = mergeSort(arr);
-        printArray(sortedArray);
+        System.out.println(Arrays.toString(sortedArray));
 
 
     }
@@ -34,30 +34,16 @@ public class MergeSort {
 
         while (i < leftSize && j < rightSize) {
             if (leftArray[i] < rightArray[j]) {
-                finalArray[k] = leftArray[i];
-                i++;
+                finalArray[k++] = leftArray[i++];
+
             } else {
-                finalArray[k] =rightArray[j];
-                j++;
+                finalArray[k++] = rightArray[j++];
+
             }
-            k++;
         }
-        while (i < leftSize) {
+        while (i < leftSize) finalArray[k++] = leftArray[i++];
+        while (j < rightSize) finalArray[k++] = rightArray[j++];
 
-            finalArray[k++] = leftArray[i];
-            i++;
-
-        }
-        while (j < rightSize) {
-            finalArray[k++] = rightArray[j];
-            j++;
-        }
         return finalArray;
-    }
-
-    public static void printArray(int[] arr) {
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
     }
 }
