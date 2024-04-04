@@ -4,49 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Tree Traversal">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Josephus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Kadnanes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DecreasingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/IncreasingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/Halloumi_Boxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/AreSame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/RomanConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dequeue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashSet/DesignHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/CountNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/CountNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/IsMirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Recursion/MaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeMap/Main.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Halloumi_Boxes">
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/CoverInWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/GameWithIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA-JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA-JAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/Anagram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/MergeSort_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeWars/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashMap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +60,16 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Halloumi_Boxes">
-    <configuration name="Halloumi_Boxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.Halloumi_Boxes" />
+  <component name="RunManager" selected="Application.GameWithIntegers">
+    <configuration name="CoverInWater (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoverInWater" />
+      <module name="DSA-JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoverInWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.CoverInWater" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort" />
+    <configuration name="GameWithIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.GameWithIntegers" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="CodeForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,25 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort_2" />
+    <configuration name="Halloumi_Boxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.Halloumi_Boxes" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="CodeForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Halloumi_Boxes" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort_2" />
+        <item itemvalue="Application.GameWithIntegers" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.CoverInWater (1)" />
+        <item itemvalue="Application.CoverInWater" />
+        <item itemvalue="Application.Halloumi_Boxes" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +301,28 @@
       <option name="project" value="LOCAL" />
       <updated>1710087537393</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="03-04-2024">
+      <created>1712129542165</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712129542165</updated>
+    </task>
+    <task id="LOCAL-00026" summary="03-04-2024">
+      <created>1712129558262</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712129558262</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Halloumi_Boxes">
+      <created>1712129567625</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712129567625</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,14 +342,16 @@
     <MESSAGE value="hashMap methods" />
     <MESSAGE value="07-03-24" />
     <MESSAGE value="Tree Traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree Traversal" />
+    <MESSAGE value="03-04-2024" />
+    <MESSAGE value="Halloumi_Boxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Halloumi_Boxes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>5</line>
+          <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -965,11 +945,6 @@
           <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="300" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
           <line>30</line>
           <option name="timeStamp" value="303" />
@@ -978,11 +953,6 @@
           <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
           <line>37</line>
           <option name="timeStamp" value="306" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
@@ -1013,6 +983,21 @@
           <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
           <line>56</line>
           <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
