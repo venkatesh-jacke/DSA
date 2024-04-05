@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Halloumi_Boxes">
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/CoverInWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/GameWithIntegers.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="codeforce">
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/DoremyPaint3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
@@ -27,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Wl04sfY9vxqjdZD7uCYsEYFYoZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,7 +60,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameWithIntegers">
+  <component name="RunManager" selected="Application.DoremyPaint3">
     <configuration name="CoverInWater (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoverInWater" />
       <module name="DSA-JAVA" />
@@ -68,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoverInWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.CoverInWater" />
+    <configuration name="DoremyPaint3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.DoremyPaint3" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Halloumi_Boxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.Halloumi_Boxes" />
+    <configuration name="JaggedSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.JaggedSwaps" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoremyPaint3" />
+        <item itemvalue="Application.JaggedSwaps" />
         <item itemvalue="Application.GameWithIntegers" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.CoverInWater (1)" />
-        <item itemvalue="Application.CoverInWater" />
-        <item itemvalue="Application.Halloumi_Boxes" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712129567625</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="codeforce">
+      <created>1712241541670</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712241541670</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -344,7 +351,8 @@
     <MESSAGE value="Tree Traversal" />
     <MESSAGE value="03-04-2024" />
     <MESSAGE value="Halloumi_Boxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Halloumi_Boxes" />
+    <MESSAGE value="codeforce" />
+    <option name="LAST_COMMIT_MESSAGE" value="codeforce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -998,6 +1006,21 @@
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
           <line>21</line>
           <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="334" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
