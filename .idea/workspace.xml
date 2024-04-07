@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="codeforce">
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/DoremyPaint3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="codeforce 05-04-2024">
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/ArrivalOfTheGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/BalancedRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/GoalsOfVictory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/MinimumLCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Gcd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
@@ -60,16 +63,9 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DoremyPaint3">
-    <configuration name="CoverInWater (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoverInWater" />
-      <module name="DSA-JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoremyPaint3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.DoremyPaint3" />
+  <component name="RunManager" selected="Application.Gcd">
+    <configuration name="ArrivalOfTheGeneral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.ArrivalOfTheGeneral" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameWithIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.GameWithIntegers" />
+    <configuration name="BalancedRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.BalancedRound" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaggedSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.JaggedSwaps" />
+    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Gcd" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumLCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.MinimumLCM" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoremyPaint3" />
-        <item itemvalue="Application.JaggedSwaps" />
-        <item itemvalue="Application.GameWithIntegers" />
+        <item itemvalue="Application.Gcd" />
+        <item itemvalue="Application.MinimumLCM" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.CoverInWater (1)" />
+        <item itemvalue="Application.BalancedRound" />
+        <item itemvalue="Application.ArrivalOfTheGeneral" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712241541670</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="codeforce 05-04-2024">
+      <created>1712337967538</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712337967538</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,16 +368,12 @@
     <MESSAGE value="03-04-2024" />
     <MESSAGE value="Halloumi_Boxes" />
     <MESSAGE value="codeforce" />
-    <option name="LAST_COMMIT_MESSAGE" value="codeforce" />
+    <MESSAGE value="codeforce 05-04-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="codeforce 05-04-2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/QuickSort2.java</url>
           <line>11</line>
@@ -993,21 +1005,6 @@
           <option name="timeStamp" value="318" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="324" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="325" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="326" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
           <line>24</line>
           <option name="timeStamp" value="331" />
@@ -1021,6 +1018,66 @@
           <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
           <line>21</line>
           <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/GoalsOfVictory.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/GoalsOfVictory.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/BalancedRound.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/BalancedRound.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/BalancedRound.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/BalancedRound.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/MinimumLCM.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/MinimumLCM.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="365" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
