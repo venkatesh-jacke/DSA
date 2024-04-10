@@ -8,17 +8,17 @@ import java.util.List;
 public class Sample {
 
     public static void main(String[] args) {
+        String text = "apple,banana,apple,orange,apple";
 
-        System.out.println(groupSum6(0, new int[]{2, 4, 8}, 14));
+        // Replace only the first occurrence of "apple" with "pear"
+        String replacedOnce = text.replace("apple", "pear");
+        System.out.println("replace: " + replacedOnce);  // Output: pear,banana,apple,orange,apple
 
-
+        // Replace all occurrences of "apple" with "pear"
+        String replacedAll = text.replaceAll("apple", "pear");
+        System.out.println("replaceAll: " + replacedAll);  // Output: pear,banana,pear,orange,pear
     }
 
 
-    static boolean groupSum6(int start, int[] nums, int target) {
-        if (start >= nums.length)
-            return target == 0;
-        if (nums[start] == 6) return groupSum6(start + 1, nums, target - nums[start]);
-        return groupSum6(start + 1, nums, target - nums[start]) || groupSum6(start + 1, nums, target);
-    }
+
 }

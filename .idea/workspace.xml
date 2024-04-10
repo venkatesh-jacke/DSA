@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="codeforce 05-04-2024">
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/ArrivalOfTheGeneral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/BalancedRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/GoalsOfVictory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/MinimumLCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/Gcd.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="07-04-24">
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/YarikAndArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/IsPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/LeftShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/Negotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/RightShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/SieveOfEratosthenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/Gcd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/Gcd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,35 +66,9 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Gcd">
-    <configuration name="ArrivalOfTheGeneral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.ArrivalOfTheGeneral" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeForce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedRound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.BalancedRound" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeForce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Gcd" />
+  <component name="RunManager" selected="Application.Negotion">
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.DecimalToBinary" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumLCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeForce.MinimumLCM" />
+    <configuration name="LeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.LeftShift" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeForce.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +93,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="Negotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Negotion" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RightShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.RightShift" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sample" />
       <module name="DSA-JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Gcd" />
-        <item itemvalue="Application.MinimumLCM" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.BalancedRound" />
-        <item itemvalue="Application.ArrivalOfTheGeneral" />
+        <item itemvalue="Application.Negotion" />
+        <item itemvalue="Application.RightShift" />
+        <item itemvalue="Application.LeftShift" />
+        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712337967538</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="07-04-24">
+      <created>1712497920683</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712497920683</updated>
+    </task>
+    <task id="LOCAL-00031" summary="07-04-24">
+      <created>1712497934633</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712497934633</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -369,7 +386,8 @@
     <MESSAGE value="Halloumi_Boxes" />
     <MESSAGE value="codeforce" />
     <MESSAGE value="codeforce 05-04-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="codeforce 05-04-2024" />
+    <MESSAGE value="07-04-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="07-04-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,6 +1096,41 @@
           <url>file://$PROJECT_DIR$/src/CodeForce/MinimumLCM.java</url>
           <line>33</line>
           <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Math/Gcd.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Math/DecimalToBinary.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Math/DecimalToBinary.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Math/DecimalToBinary.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="391" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
