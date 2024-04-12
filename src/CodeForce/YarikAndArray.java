@@ -20,8 +20,10 @@ public class YarikAndArray {
         int maxSum = arr[0];
         int sum = arr[0];
         for (int i = 1; i < n; i++) {
-            if ((arr[i] & 1) == (arr[i - 1] & 1)) sum = arr[i];
-            else sum = Math.max(arr[i], sum + arr[i]);
+            if ((arr[i] & 1) == (arr[i - 1] & 1))
+                sum = arr[i];
+            else
+                sum = Math.max(arr[i], sum + arr[i]);
             maxSum = Math.max(sum, maxSum);
         }
         return maxSum;

@@ -8,17 +8,26 @@ import java.util.List;
 public class Sample {
 
     public static void main(String[] args) {
-        String text = "apple,banana,apple,orange,apple";
-
-        // Replace only the first occurrence of "apple" with "pear"
-        String replacedOnce = text.replace("apple", "pear");
-        System.out.println("replace: " + replacedOnce);  // Output: pear,banana,apple,orange,apple
-
-        // Replace all occurrences of "apple" with "pear"
-        String replacedAll = text.replaceAll("apple", "pear");
-        System.out.println("replaceAll: " + replacedAll);  // Output: pear,banana,pear,orange,pear
+        System.out.println(truncateSentence( "chopper is not a tanuki",5));
     }
+   static public String truncateSentence(String s, int k){
+       int c = 0;
+       int i = 0;
+       StringBuilder sb= new StringBuilder("");
 
+       while (c < k  && i<s.length())  {
+           char cur= s.charAt(i++);
+           if (cur == ' ') {
+               c++;
+               if(c<k) sb.append(cur);
+           }
+
+           else sb.append(cur);
+
+
+       }
+       return sb.toString();
+   }
 
 
 }

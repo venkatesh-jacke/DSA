@@ -37,7 +37,6 @@ public class MinimumLCM {
     static int[] minimumLcm2(int n) {
         int[] res = new int[2];
         int a = 1;
-
         for (int i=2;i*i<=n;i++) {
             if(n%i==0){
                 a=n/i;

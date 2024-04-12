@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="07-04-24">
-      <change afterPath="$PROJECT_DIR$/src/CodeForce/YarikAndArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/IsPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/LeftShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/Negotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/RightShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/SieveOfEratosthenes.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Math module added">
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/DontTryToCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForce/MaximumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Math/BitMask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue/MyPriorityQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/Gcd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/Gcd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeForce/MinimumLCM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeForce/MinimumLCM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeForce/YarikAndArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeForce/YarikAndArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Codechef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Codechef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/DecimalToBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/DecimalToBinary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeChef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeChef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForce/MinimumLCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForce/MinimumLCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeForce/YarikAndArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForce/YarikAndArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +71,9 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Negotion">
-    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.DecimalToBinary" />
+  <component name="RunManager" selected="Application.BitMask">
+    <configuration name="BitMask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.BitMask" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.LeftShift" />
+    <configuration name="DontTryToCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.DontTryToCount" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="CodeForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Negotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Negotion" />
+    <configuration name="MaximumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeForce.MaximumSum" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="CodeForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.RightShift" />
+    <configuration name="MyPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.MyPriorityQueue" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Negotion" />
-        <item itemvalue="Application.RightShift" />
-        <item itemvalue="Application.LeftShift" />
-        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.BitMask" />
+        <item itemvalue="Application.DontTryToCount" />
         <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.MyPriorityQueue" />
+        <item itemvalue="Application.MaximumSum" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712497934633</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&#10;//https://codeforces.com/problemset/problem/1899/C">
+      <created>1712732709594</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712732709594</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Math module added">
+      <created>1712732730478</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712732730479</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -387,7 +406,9 @@
     <MESSAGE value="codeforce" />
     <MESSAGE value="codeforce 05-04-2024" />
     <MESSAGE value="07-04-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="07-04-24" />
+    <MESSAGE value="&#10;//https://codeforces.com/problemset/problem/1899/C" />
+    <MESSAGE value="Math module added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math module added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,33 +1030,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="316" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="317" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/QuickSort.java</url>
           <line>56</line>
           <option name="timeStamp" value="318" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="331" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="333" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeForce/JaggedSwaps.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="334" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeForce/GoalsOfVictory.java</url>
@@ -1068,26 +1064,6 @@
           <option name="timeStamp" value="348" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="357" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="358" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="359" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="360" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeForce/MinimumLCM.java</url>
           <line>19</line>
           <option name="timeStamp" value="364" />
@@ -1104,33 +1080,108 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="380" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
-          <line>24</line>
+          <line>28</line>
           <option name="timeStamp" value="386" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="388" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Math/DecimalToBinary.java</url>
-          <line>24</line>
+          <line>25</line>
           <option name="timeStamp" value="389" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Math/DecimalToBinary.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="390" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Math/DecimalToBinary.java</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/YarikAndArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/MaximumSum.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/MaximumSum.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/MaximumSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/DontTryToCount.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/DontTryToCount.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/DontTryToCount.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/DontTryToCount.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodeForce/DontTryToCount.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="424" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
