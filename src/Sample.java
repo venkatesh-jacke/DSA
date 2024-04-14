@@ -2,32 +2,28 @@ import com.sun.org.apache.bcel.internal.generic.FSUB;
 import com.sun.org.apache.bcel.internal.generic.RETURN;
 import sun.security.x509.InvalidityDateExtension;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.sql.SQLOutput;
+import java.util.*;
 
 public class Sample {
 
     public static void main(String[] args) {
-        System.out.println(truncateSentence( "chopper is not a tanuki",5));
+        int[][] arr = new int[][]{
+                {3, 1, 2, 4, 5},
+                {1, 2, 3, 4},
+                {3, 4, 5, 6}
+        };
+        System.out.println(intersection(arr));
+
     }
-   static public String truncateSentence(String s, int k){
-       int c = 0;
-       int i = 0;
-       StringBuilder sb= new StringBuilder("");
 
-       while (c < k  && i<s.length())  {
-           char cur= s.charAt(i++);
-           if (cur == ' ') {
-               c++;
-               if(c<k) sb.append(cur);
-           }
+    static public List<Integer> intersection(int[][] arr) {
+        List<Integer> res= new ArrayList<>();
 
-           else sb.append(cur);
-
-
-       }
-       return sb.toString();
-   }
-
-
+        for (int[] i : arr) {
+            Arrays.sort(i);
+            System.out.println(Arrays.toString(i));
+        }
+        return res;
+    }
 }
