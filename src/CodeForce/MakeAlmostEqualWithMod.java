@@ -34,3 +34,35 @@ public class MakeAlmostEqualWithMod {
     }
 }
 
+/*
+Answer is going to be one of the power of 2
+
+AnyNumber % 2  Reminder will be 0,1
+AnyNumber % 4  Reminder will be 0,1,2,3
+AnyNumber % 8  Reminder will be 0,1,2,3,4,5,6,7
+
+
+Dry run
+5
+60 90 98 120 308
+
+
+Lets Take res = 2
+  - 60 % 2 = 0
+  - 90 % 2 = 0
+  - 98 % 2 = 0
+  - 120 % 2 = 0
+  - 308 % 2 = 0
+Lets Take res = 4
+  - 60 % 4 = 0
+  - 90 % 4 = 2
+  - 98 % 4 = 2
+  - 120 % 4 = 0
+  - 308 % 4 = 0
+Lets Take res = 8
+  - 60 % 8 = 4
+  - 90 % 8 = 2
+  - 98 % 8 = 2
+  - 120 % 8 = 0
+  - 308 % 8 = 4
+*/
