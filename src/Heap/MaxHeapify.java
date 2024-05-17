@@ -2,7 +2,14 @@ package Heap;
 
 import java.util.Arrays;
 
-public class Main {
+public class MaxHeapify {
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        buildMaxHeap(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
     public static void buildMaxHeap(int[] arr) {
         int startIdx = (arr.length / 2) - 1; // Index of last non-leaf node
         for (int i = startIdx; i >= 0; i--) {
@@ -10,11 +17,6 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        buildMaxHeap(arr);
-        System.out.println(Arrays.toString(arr));
-    }
     static public void maxHeapify(int arr[], int i) {
         int size = arr.length;
         if(i>size) return;

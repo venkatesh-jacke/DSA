@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="15-05-24">
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/AllSubSequencesOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/BinaryToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/BitManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/MaximumAndValueInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/NoOfTrailingZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/NthPalindromicBinaryRepresentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/ReverseAllBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManupulation/SwapEvenOddBits.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="17-05-24">
+      <change afterPath="$PROJECT_DIR$/src/Heap/MaxHeapify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MinHeapify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/MyMaxHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +61,26 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AllSubSequencesOfAString">
+  <component name="RunManager" selected="Application.MinHeapify">
     <configuration name="AllSubSequencesOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitManupulation.AllSubSequencesOfAString" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BitManupulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.Main" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumAndValueInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManupulation.MaximumAndValueInArray" />
+    <configuration name="MaxHeapify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeapify" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManupulation.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthPalindromicBinaryRepresentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManupulation.NthPalindromicBinaryRepresentation" />
+    <configuration name="MinHeapify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.MinHeapify" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManupulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseAllBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManupulation.ReverseAllBits" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitManupulation.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinHeapify" />
+        <item itemvalue="Application.MaxHeapify" />
+        <item itemvalue="Application.Heap.Main" />
         <item itemvalue="Application.AllSubSequencesOfAString" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MaximumAndValueInArray" />
-        <item itemvalue="Application.NthPalindromicBinaryRepresentation" />
-        <item itemvalue="Application.ReverseAllBits" />
       </list>
     </recent_temporary>
   </component>
@@ -460,11 +454,17 @@
       <option name="project" value="LOCAL" />
       <updated>1715781329877</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="17-05-24">
+      <created>1715934647237</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1715934647237</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bfs and dfs" />
     <MESSAGE value="16-02-14" />
     <MESSAGE value="18-02-14" />
     <MESSAGE value="29-02-14" />
@@ -489,7 +489,8 @@
     <MESSAGE value="https://www.naukri.com/code360/problems/longest-mountain-subarray_893069?leftPanelTabValue=SUBMISSION" />
     <MESSAGE value="commit" />
     <MESSAGE value="15-05-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="15-05-24" />
+    <MESSAGE value="17-05-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="17-05-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1343,6 +1344,21 @@
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
           <line>24</line>
           <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/MaxHeapify.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/MaxHeapify.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Heap/MaxHeapify.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="490" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
