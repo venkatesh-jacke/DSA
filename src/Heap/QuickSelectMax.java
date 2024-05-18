@@ -9,6 +9,8 @@ public class QuickSelectMax {
     public static int kthLargest(int[] arr, int low, int high, int k) {
         if (low <= high) {
             int pi = partition(arr, low, high);
+
+            //k-1 because it's a aeo based indexing
             if (pi == k - 1) {
                 return arr[pi];
             } else if (pi < k - 1) {
