@@ -10,6 +10,7 @@ public class LinkedHashSetDS {
         linkedHashSet.add(1);
         linkedHashSet.add(4);
         linkedHashSet.add(2);
+        linkedHashSet.add(2);
         linkedHashSet.add(null);  //It can store null only one null it can store
         linkedHashSet.add(null);
         System.out.println(linkedHashSet);

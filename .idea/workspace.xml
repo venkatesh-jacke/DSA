@@ -4,8 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="heapify">
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="QuickSelect algo">
+      <change afterPath="$PROJECT_DIR$/src/Graphs/Directed/IsCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/IsCycleBfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/K_Sorted_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/AreSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/ArrayDiff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/BraceChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/FindMissingLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/FirstNonRepeatingLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/PangramChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/PerfectSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/ReverseAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/RomanConversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/ToCamelCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/Representations/AdjacencyList/UndirectedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/Representations/AdjacencyList/UndirectedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/LinkedHashSet/LinkedHashSetDS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/LinkedHashSet/LinkedHashSetDS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Recursion/PrintSubSets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Recursion/PrintSubSets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder$LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder$LevelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PreOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Inorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Inorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/LowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/PostOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Preorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Preorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/Anagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/AreSame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/ArrayDiff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/BraceChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/FindMissingLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/PangramChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/PerfectSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/ReverseAString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/RomanConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/ToCamelCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedHashSet/LinkedHashSetDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashSet/LinkedHashSetDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/PrintSubSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/PrintSubSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +110,13 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSelectMax">
-    <configuration name="Heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Main" />
+  <component name="RunManager" selected="Application.SumOfAllDivisors">
+    <configuration name="IsCycleBfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.UnDirected.IsCycleBfs" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Graphs.UnDirected.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeapify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeapify" />
+    <configuration name="PostOrder$LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PostOrder$LevelOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Tree.Interative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.MinHeapify" />
+    <configuration name="PostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PostOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Tree.Interative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSelectMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.QuickSelectMax" />
+    <configuration name="PreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PreOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Tree.Interative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSelectMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.QuickSelectMin" />
+    <configuration name="SumOfAllDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.SumOfAllDivisors" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSelectMax" />
-        <item itemvalue="Application.QuickSelectMin" />
-        <item itemvalue="Application.MinHeapify" />
-        <item itemvalue="Application.MaxHeapify" />
-        <item itemvalue="Application.Heap.Main" />
+        <item itemvalue="Application.SumOfAllDivisors" />
+        <item itemvalue="Application.IsCycleBfs" />
+        <item itemvalue="Application.PreOrder" />
+        <item itemvalue="Application.PostOrder$LevelOrder" />
+        <item itemvalue="Application.PostOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -463,11 +517,24 @@
       <option name="project" value="LOCAL" />
       <updated>1715962890316</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="QuickSelect algo">
+      <created>1716026283108</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1716026283108</updated>
+    </task>
+    <task id="LOCAL-00048" summary="QuickSelect algo">
+      <created>1716026351371</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1716026351371</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="18-02-14" />
     <MESSAGE value="29-02-14" />
     <MESSAGE value="04-03-2024" />
     <MESSAGE value="hashMap methods" />
@@ -492,7 +559,8 @@
     <MESSAGE value="15-05-24" />
     <MESSAGE value="17-05-24" />
     <MESSAGE value="heapify" />
-    <option name="LAST_COMMIT_MESSAGE" value="heapify" />
+    <MESSAGE value="QuickSelect algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuickSelect algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,21 +781,6 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Recursion/AllSubSequenceOfString.java</url>
           <line>15</line>
           <option name="timeStamp" value="134" />
@@ -873,48 +926,23 @@
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="192" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="194" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="195" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/InOrder.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
-          <line>38</line>
+          <line>31</line>
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
-          <line>42</line>
+          <line>35</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
-          <line>30</line>
+          <line>23</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
-          <line>27</line>
+          <line>20</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1328,26 +1356,6 @@
           <option name="timeStamp" value="454" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="480" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="481" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="482" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="483" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Heap/MaxHeapify.java</url>
           <line>30</line>
           <option name="timeStamp" value="488" />
@@ -1361,6 +1369,21 @@
           <url>file://$PROJECT_DIR$/src/Heap/MaxHeapify.java</url>
           <line>27</line>
           <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="522" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
@@ -1384,6 +1407,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DSA_JAVA$Sample.ic" NAME="Sample Coverage Results" MODIFIED="1715482798821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DSA_JAVA$Sample.ic" NAME="Sample Coverage Results" MODIFIED="1717149309375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

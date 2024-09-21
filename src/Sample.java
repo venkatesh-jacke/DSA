@@ -1,38 +1,34 @@
-import com.sun.org.apache.bcel.internal.generic.FSUB;
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-import javafx.util.Pair;
-import sun.security.x509.InvalidityDateExtension;
-
-import java.math.BigInteger;
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Sample {
-
     public static void main(String[] args) {
-        int[] arr={1,2,3,5};
-        int k=3;
-        System.out.println(Arrays.toString(kthSmallestPrimeFraction(arr, k)));
+        System.out.println(reverseParentheses("(ed(et(oc))el)"));
     }
 
-    static public int[] kthSmallestPrimeFraction(int[] arr, int k) {
-
-        int n = arr.length;
-
-        PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> Double.compare((double)y[0] / y[1], (double)x[0] / x[1]));
-
-        for (int i = 0 ; i < n ; i++) {
-            for  (int j = i+1 ; j < n ; j++) {
-                pq.add(new int[] {arr[i], arr[j]});
-                if (pq.size() > k) pq.poll();
+    static public String reverseParentheses(String s) {
+        int n = s.length();
+        int[] pair = new int[n];
+        StringBuilder sb = new StringBuilder();
+        Stack<Integer> st = new Stack<>();
+        for (int i = 0; i < n; i++) {
+            if (s.charAt(i) == '(')
+                st.push(i);
+            if (s.charAt(i) == '(') {
+                int j = st.pop();
+                pair[i] = j;
+                pair[j] = i;
             }
         }
-        for(int[] i:pq){
-            System.out.println(Arrays.toString(i));
+        for (int i = 0, dir = 1; i < n; i += dir) {
+            if (s.charAt(i) == '(' || s.charAt(i) == ')') {
+                i = pair[i];
+                dir = -dir;
+            } else {
+                sb.append(s.charAt(i));
+            }
         }
-        return pq.peek();
+
+        return sb.toString();
     }
 
 }
-
-

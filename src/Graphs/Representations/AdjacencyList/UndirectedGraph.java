@@ -5,17 +5,19 @@ import java.util.*;
 public class UndirectedGraph {
     public static void main(String[] args) {
         int n = 6;
-        int[][] edges = {{0, 1}, {0, 3}, {0, 4}, {1, 2}, {5, 3}, {5, 4}};
+        //int[][] edges = {{0, 1}, {0, 3}, {0, 4}, {1, 2}, {5, 3}, {5, 4}};
+        int[][] edges = {{0, 2}, {0, 3}, {0, 1}, {2, 4}};
         Map<Integer, ArrayList<Integer>> graph = createGraph(n, edges);
         // System.out.println(graph);
         System.out.println("BFS Traversal for given graph is ");
         bfs(graph, n, 0, new boolean[n]);
         System.out.println();
         System.out.println("DFS Traversal for given graph is ");
-        dfs(graph,0, new boolean[n]);
+        dfs(graph, 0, new boolean[n]);
         System.out.println();
         System.out.println("DFS Traversal for given graph is ");
         dfs2(graph, 0, new boolean[n]);
+        ;
 
     }
 
@@ -38,7 +40,7 @@ public class UndirectedGraph {
         visited[source] = true;
         while (!q.isEmpty()) {
             int current = q.remove();
-            System.out.print(current);
+            System.out.print(current + " ");
             for (int neighbor : graph.get(current)) {
                 if (!visited[neighbor]) {
                     q.add(neighbor);
@@ -54,22 +56,23 @@ public class UndirectedGraph {
         while (!stack.isEmpty()) {
             int current = stack.pop();
             visited[current] = true;
-            System.out.print(current);
-            for (int neighbor : graph.get(current)) {
+            System.out.print(current + " ");
+            // Push neighbors in reverse order to maintain DFS order
+            for (int i = graph.get(current).size() - 1; i >= 0; i--) {
+                int neighbor = graph.get(current).get(i);
                 if (!visited[neighbor]) {
                     stack.push(neighbor);
-                    visited[neighbor] = true;
                 }
             }
         }
     }
 
-    static void  dfs2(Map<Integer, ArrayList<Integer>> graph,int current, boolean[] visited){
-        System.out.print(current);
-        visited[current]=true;
-        for(int neighbor:graph.get(current)){
-            if(!visited[neighbor]){
-                dfs2(graph,neighbor,visited);
+    static void dfs2(Map<Integer, ArrayList<Integer>> graph, int cur, boolean[] vis) {
+        vis[cur] = true;
+        System.out.print(cur + " ");
+        for (int i = 0; i < graph.get(cur).size(); i++) {
+            if (!vis[graph.get(cur).get(i)]) {
+                dfs2(graph, graph.get(cur).get(i), vis);
             }
         }
     }

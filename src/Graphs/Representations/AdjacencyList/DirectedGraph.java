@@ -24,3 +24,5 @@ public class DirectedGraph {
 
 
 }
+
+//n=3 0 1 2
