@@ -48,14 +48,14 @@ public class DecreasingQueue {
         Arrays.fill(firstSmallerToRight, -1);
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < n; i++) {
-                int cur=arr[i];
-                while(!stack.isEmpty() && arr[stack.peek()]<arr[i]){
-                    firstSmallerToRight[stack.pop()]=cur;
-                }
-                if(!stack.isEmpty())
-                    firstSmallerToLeft[i]=arr[stack.peek()];
+            int cur = arr[i];
+            while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
+                firstSmallerToRight[stack.pop()] = cur;
+            }
+            if (!stack.isEmpty())
+                firstSmallerToLeft[i] = arr[stack.peek()];
 
-                stack.push(i);
+            stack.push(i);
         }
         System.out.println("firstGreaterToLeft: " + Arrays.toString(firstSmallerToLeft));
         System.out.println("firstGreaterToRight: " + Arrays.toString(firstSmallerToRight));

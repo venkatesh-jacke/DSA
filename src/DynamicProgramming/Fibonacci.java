@@ -21,7 +21,6 @@ public class Fibonacci {
         if (n < 3) return 1;
         return rec(n - 1) + rec(n - 2);
     }
- // 0 1 1 2 3 5 8
 
     //Top Down
     static int memo(int n) {

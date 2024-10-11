@@ -4,17 +4,18 @@ import java.util.HashMap;
 
 public class LongestSubarrayWithSumK {
     public static void main(String[] args) {
-        int arr[] = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int arr1[] = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int arr2[] = new int[]{1, 4, 2, 1, 4};
         int k = 6;
 
-        System.out.println(longestSubarrayWithSumK1(arr, k));
-        System.out.println(longestSubarrayWithSumK(arr, k));
+        System.out.println(longestSubArrayWithSumK1(arr1, k));
+        System.out.println(longestSubArrayWithSumK2(arr2, k));
     }
 
     //This works for both positive and negative values
     //Time O(n)
     //Space O(n)
-    public static int longestSubarrayWithSumK1(int[] arr, long k) {
+    public static int longestSubArrayWithSumK1(int[] arr, long k) {
         int n = arr.length;
         long sum = 0;
         int max_len = -1;
@@ -32,24 +33,28 @@ public class LongestSubarrayWithSumK {
         return max_len != -1 ? max_len : 0;
     }
 
-    public static int longestSubarrayWithSumK(int[] arr, long k) {
+
+    //Works only for Positive Values
+    public static int longestSubArrayWithSumK2(int[] arr, long k) {
         int n = arr.length;
         long sum = 0;
         int max_len = -1;
-        int start = 0, end = 0;
+        int start = 0;
 
-        while (end < n) {
-            while (sum < k && end < n) {
-                sum += arr[end++];
+        for (int end = 0; end < n; end++) {
+            sum += arr[end]; // Add the current element to the sum
+
+            // Shrink the window from the left as long as the sum is at least k
+            while (sum > k && start <= end) {
+                sum -= arr[start++]; // Shrink the window from the start
             }
-            while (sum > k && start < n) {
-                sum -= arr[start++];
-            }
-            if(sum==k){
-                max_len=Math.max(max_len,end-start);
+
+            // If the sum is exactly k, update max_len
+            if (sum == k) {
+                max_len = Math.max(max_len, end - start + 1);
             }
         }
-        return max_len;
+        return max_len != -1 ? max_len : 0;
 
     }
 }

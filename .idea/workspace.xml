@@ -4,62 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="QuickSelect algo">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Directed/IsCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/IsCycleBfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap/K_Sorted_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="21-09-24">
+      <change afterPath="$PROJECT_DIR$/src/HashMap/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/TestHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/Anagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/AreSame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/ArrayDiff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/BraceChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/FindMissingLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/FirstNonRepeatingLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/PangramChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/PerfectSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/ReverseAString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/RomanConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/CodeWars/ToCamelCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/Representations/AdjacencyList/UndirectedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/Representations/AdjacencyList/UndirectedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/LinkedHashSet/LinkedHashSetDS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/LinkedHashSet/LinkedHashSetDS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Recursion/PrintSubSets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Recursion/PrintSubSets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/LongestSubarrayWithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/LongestSubarrayWithSumK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/ShortestSubarrayWithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/ShortestSubarrayWithSumK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/DynamicProgramming/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/DynamicProgramming/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/IsPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/IsPrime.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/InOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder$LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder$LevelOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PostOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Interative/PreOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Inorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Inorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/LowestCommonAncestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/PostOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Preorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Recursion/Preorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/Anagram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/AreSame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/ArrayDiff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/BraceChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/FindMissingLetter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/PangramChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/PerfectSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/ReverseAString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/RomanConversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWars/ToCamelCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/DirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Representations/AdjacencyList/UndirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedHashSet/LinkedHashSetDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashSet/LinkedHashSetDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/PrintSubSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/PrintSubSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Kadnanes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Kadnanes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/DecreasingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/DecreasingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/IsPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/IsPrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +70,13 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOfAllDivisors">
-    <configuration name="IsCycleBfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.UnDirected.IsCycleBfs" />
+  <component name="RunManager" selected="Application.TestHashMap">
+    <configuration name="DecreasingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.DecreasingQueue" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.UnDirected.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostOrder$LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PostOrder$LevelOrder" />
+    <configuration name="LongestSubarrayWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LongestSubarrayWithSumK" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Interative.*" />
+          <option name="PATTERN" value="Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PostOrder" />
+    <configuration name="ShortestSubarrayWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.ShortestSubarrayWithSumK" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.Interative.*" />
+          <option name="PATTERN" value="Algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,25 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.PreOrder" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.Interative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfAllDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.SumOfAllDivisors" />
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.TestHashMap" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOfAllDivisors" />
-        <item itemvalue="Application.IsCycleBfs" />
-        <item itemvalue="Application.PreOrder" />
-        <item itemvalue="Application.PostOrder$LevelOrder" />
-        <item itemvalue="Application.PostOrder" />
+        <item itemvalue="Application.TestHashMap" />
+        <item itemvalue="Application.DecreasingQueue" />
+        <item itemvalue="Application.ShortestSubarrayWithSumK" />
+        <item itemvalue="Application.LongestSubarrayWithSumK" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -531,11 +485,17 @@
       <option name="project" value="LOCAL" />
       <updated>1716026351371</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="21-09-24">
+      <created>1726925533778</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1726925533778</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="29-02-14" />
     <MESSAGE value="04-03-2024" />
     <MESSAGE value="hashMap methods" />
     <MESSAGE value="07-03-24" />
@@ -560,7 +520,8 @@
     <MESSAGE value="17-05-24" />
     <MESSAGE value="heapify" />
     <MESSAGE value="QuickSelect algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuickSelect algo" />
+    <MESSAGE value="21-09-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-09-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,34 +1002,9 @@
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="269" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="270" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
-          <line>29</line>
+          <line>25</line>
           <option name="timeStamp" value="272" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="273" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="274" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithms/ShortestSubarrayWithSumK.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="277" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodeWars/FirstNonRepeatingLetter.java</url>
@@ -1084,36 +1020,6 @@
           <url>file://$PROJECT_DIR$/src/Dequeue/Main.java</url>
           <line>23</line>
           <option name="timeStamp" value="289" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="293" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="294" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="295" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="296" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="297" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/DecreasingQueue.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="298" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
@@ -1336,11 +1242,6 @@
           <option name="timeStamp" value="448" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="450" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Strings/AllSubSequence.java</url>
           <line>24</line>
           <option name="timeStamp" value="452" />
@@ -1372,18 +1273,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="503" />
+          <line>28</line>
+          <option name="timeStamp" value="523" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="517" />
+          <line>19</line>
+          <option name="timeStamp" value="527" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="522" />
+          <line>22</line>
+          <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="530" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

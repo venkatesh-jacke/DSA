@@ -6,30 +6,25 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-        List<String> dictionary = Arrays.asList("a", "b", "c");
-        String sentence = "aadsfasf absbs bbab cadsfafs";
-//        List<String> dictionary = Arrays.asList("cat", "bat", "rat");
-//        String sentence = "the cattle was rattled by the battery";
-        System.out.println(replaceWords(dictionary, sentence));
+//        System.out.println(maximumTotalSum(new int[]{2, 3, 4, 3}));
+//        System.out.println(maximumTotalSum(new int[]{15, 10}));
+//        System.out.println(maximumTotalSum(new int[]{2, 2, 1}));
+        System.out.println(maximumTotalSum(new int[]{6,6,6,3,7,2,6,5}));
     }
 
-    static public String replaceWords(List<String> dictionary, String sentence) {
-        String[] sentenceArray = sentence.split(" ");
-        StringBuilder sb = new StringBuilder();
-        for (String word : sentenceArray) {
-            String replacement = word;
-
-            for (String prefix : dictionary) {
-                if (replacement.startsWith(prefix) && replacement.length() > prefix.length()) {
-                    replacement = prefix;
-                }
+    static public long maximumTotalSum(int[] arr) {
+        Arrays.sort(arr);
+        long ans = 0;
+        for (int i = arr.length - 1; i > 0; i--) {
+            if (arr[i] != arr[i - 1]) {
+                ans += arr[i];
+            } else {
+                ans += arr[i];
+                arr[i - 1]--;
             }
-            sb.append(replacement).append(" ");
-
-
         }
-
-        return sb.toString();
+        if (arr[0] > 0) return arr[0] + ans;
+        return -1;
     }
 
 

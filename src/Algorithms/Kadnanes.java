@@ -70,11 +70,11 @@ public class Kadnanes {
 /*
 Properties:-
 1. If all elements are positive than the max sub array will be the whole array itself.
-2. If all elemnts are negative than the size of max sum array could be 1 which is value near to 0.
+2. If all elements are negative than the size of max sum array could be 1 which is value near to 0.
 3. In an array there can be many sub array which gives a same max sum
 
 Observation:-
 If you see we are finding the  window length of arr which holds the max_sum
-This is like sliding window technique where we dont know thw window size initially
+This is like sliding window technique where we don't know the window size initially
 
 */
