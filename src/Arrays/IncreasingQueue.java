@@ -8,9 +8,7 @@ import java.util.Queue;
 public class IncreasingQueue {
     public static void main(String[] args) {
         int[] arr = new int[]{5, 3, 1, 2, 4};
-
         increasingQueue(arr);
-
     }
 
 

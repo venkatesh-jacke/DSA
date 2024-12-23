@@ -6,25 +6,30 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-//        System.out.println(maximumTotalSum(new int[]{2, 3, 4, 3}));
-//        System.out.println(maximumTotalSum(new int[]{15, 10}));
-//        System.out.println(maximumTotalSum(new int[]{2, 2, 1}));
-        System.out.println(maximumTotalSum(new int[]{6,6,6,3,7,2,6,5}));
+        int[] arr = new int[]{5, 3, 1, 2, 4};
+        System.out.println("Using Dequeue");
+        decreasingQueue(arr);
     }
 
-    static public long maximumTotalSum(int[] arr) {
-        Arrays.sort(arr);
-        long ans = 0;
-        for (int i = arr.length - 1; i > 0; i--) {
-            if (arr[i] != arr[i - 1]) {
-                ans += arr[i];
-            } else {
-                ans += arr[i];
-                arr[i - 1]--;
+    static void decreasingQueue(int[] arr) {
+
+        int n = arr.length;
+        int[] firstSmallerToLeft = new int[n];
+        int[] firstSmallerToRight = new int[n];
+        Arrays.fill(firstSmallerToLeft, -1);
+        Arrays.fill(firstSmallerToRight, -1);
+        Deque<Integer> q = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            int v = arr[i];
+            while (!q.isEmpty() && arr[q.peek()] <= v) {
+                firstSmallerToRight[q.remove()] = v;
             }
+            if (!q.isEmpty())
+                firstSmallerToLeft[i] = arr[q.peek()];
+            q.push(i);
         }
-        if (arr[0] > 0) return arr[0] + ans;
-        return -1;
+        System.out.println("firstGreaterToLeft: " + Arrays.toString(firstSmallerToLeft));
+        System.out.println("firstGreaterToRight: " + Arrays.toString(firstSmallerToRight));
     }
 
 

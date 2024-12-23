@@ -9,7 +9,7 @@ public class LongestSubarrayWithSumK {
         int k = 6;
 
         System.out.println(longestSubArrayWithSumK1(arr1, k));
-        System.out.println(longestSubArrayWithSumK2(arr2, k));
+       // System.out.println(longestSubArrayWithSumK2(arr2, k));
     }
 
     //This works for both positive and negative values
@@ -20,6 +20,7 @@ public class LongestSubarrayWithSumK {
         long sum = 0;
         int max_len = -1;
         HashMap<Long, Integer> map = new HashMap<>();
+        map.put(0L,1); //consider the subArray starts from 0
         for (int i = 0; i < n; i++) {
             sum += arr[i];
             if (sum == k) max_len = Math.max(max_len, i + 1);
@@ -30,6 +31,7 @@ public class LongestSubarrayWithSumK {
             }
             map.putIfAbsent(sum, i);  //Don't update the value we can have same sum  so we should not shrink the window size
         }
+
         return max_len != -1 ? max_len : 0;
     }
 
