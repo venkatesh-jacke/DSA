@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="11-10-24">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DecreasingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Directed/AdjacencyMatrix/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/Directed/AdjancyList/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/CyclicSort.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="23-12-24">
+      <change afterPath="$PROJECT_DIR$/src/gfg/CountSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg/CountTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg/SubarrayXor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/Kadnanes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/Kadnanes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/LongestSubarrayWithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Algorithms/LongestSubarrayWithSumK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Arrays/DecreasingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Arrays/DecreasingQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Arrays/IncreasingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Arrays/IncreasingQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Kadnanes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Kadnanes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LongestSubarrayWithSumK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/DecreasingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/DecreasingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/IncreasingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/IncreasingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicSort">
+  <component name="RunManager" selected="Application.Sample">
     <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
       <module name="DSA-JAVA" />
@@ -123,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sample" />
       <module name="DSA-JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample" />
         <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra" />
         <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra (1)" />
         <item itemvalue="Application.DecreasingStack" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00002" summary="selecion and insertion sort added">
-      <created>1705246498334</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705246498334</updated>
     </task>
     <task id="LOCAL-00003" summary="selecion and insertion sort added">
       <created>1705246520018</created>
@@ -492,11 +476,17 @@
       <option name="project" value="LOCAL" />
       <updated>1728659103423</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="23-12-24">
+      <created>1734937812382</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1734937812382</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hashMap methods" />
     <MESSAGE value="07-03-24" />
     <MESSAGE value="Tree Traversal" />
     <MESSAGE value="03-04-2024" />
@@ -521,7 +511,8 @@
     <MESSAGE value="QuickSelect algo" />
     <MESSAGE value="21-09-24" />
     <MESSAGE value="11-10-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="11-10-24" />
+    <MESSAGE value="23-12-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="23-12-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1258,13 +1249,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/CyclicSort.java</url>
-          <line>16</line>
+          <line>27</line>
           <option name="timeStamp" value="524" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/CyclicSort.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="525" />
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sample.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="530" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

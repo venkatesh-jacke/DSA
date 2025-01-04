@@ -2,33 +2,25 @@ import java.util.*;
 
 public class Sample {
     public static void main(String[] args) {
-        System.out.println(reverseParentheses("(ed(et(oc))el)"));
+        int[] arr = {1, 3, 4, 2, 2};
+        System.out.println(findDuplicate(arr));
     }
 
-    static public String reverseParentheses(String s) {
-        int n = s.length();
-        int[] pair = new int[n];
-        StringBuilder sb = new StringBuilder();
-        Stack<Integer> st = new Stack<>();
-        for (int i = 0; i < n; i++) {
-            if (s.charAt(i) == '(')
-                st.push(i);
-            if (s.charAt(i) == '(') {
-                int j = st.pop();
-                pair[i] = j;
-                pair[j] = i;
-            }
-        }
-        for (int i = 0, dir = 1; i < n; i += dir) {
-            if (s.charAt(i) == '(' || s.charAt(i) == ')') {
-                i = pair[i];
-                dir = -dir;
+    static public int findDuplicate(int[] nums) {
+        int n = nums.length;
+        int i = 0;
+        while (i < n) {
+            int correctIndex = nums[i] - 1;
+            if (nums[correctIndex] != nums[i]) {
+                if (nums[correctIndex] == nums[i])
+                    return nums[i];
+                int temp = nums[correctIndex];
+                nums[correctIndex] = nums[i];
+                nums[i] = temp;
             } else {
-                sb.append(s.charAt(i));
+                i++;
             }
         }
-
-        return sb.toString();
+        return n;
     }
-
 }
