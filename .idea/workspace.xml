@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="23-12-24">
-      <change afterPath="$PROJECT_DIR$/src/gfg/CountSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg/CountTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg/SubarrayXor.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="gfg potd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00003" summary="selecion and insertion sort added">
-      <created>1705246520018</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1705246520018</updated>
     </task>
     <task id="LOCAL-00004" summary="stack implementation">
       <created>1705327199797</created>
@@ -483,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1734937812382</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="gfg potd">
+      <created>1735978796267</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1735978796267</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07-03-24" />
     <MESSAGE value="Tree Traversal" />
     <MESSAGE value="03-04-2024" />
     <MESSAGE value="Halloumi_Boxes" />
@@ -512,7 +506,8 @@
     <MESSAGE value="21-09-24" />
     <MESSAGE value="11-10-24" />
     <MESSAGE value="23-12-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="23-12-24" />
+    <MESSAGE value="gfg potd" />
+    <option name="LAST_COMMIT_MESSAGE" value="gfg potd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
