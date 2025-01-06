@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="gfg potd">
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="CountPairs">
+      <change afterPath="$PROJECT_DIR$/src/gfg/SumClosest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00004" summary="stack implementation">
-      <created>1705327199797</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705327199797</updated>
     </task>
     <task id="LOCAL-00005" summary="stack implementation">
       <created>1705327377830</created>
@@ -478,11 +472,17 @@
       <option name="project" value="LOCAL" />
       <updated>1735978796267</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="CountPairs">
+      <created>1736065073892</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736065073892</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tree Traversal" />
     <MESSAGE value="03-04-2024" />
     <MESSAGE value="Halloumi_Boxes" />
     <MESSAGE value="codeforce" />
@@ -507,7 +507,8 @@
     <MESSAGE value="11-10-24" />
     <MESSAGE value="23-12-24" />
     <MESSAGE value="gfg potd" />
-    <option name="LAST_COMMIT_MESSAGE" value="gfg potd" />
+    <MESSAGE value="CountPairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountPairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
