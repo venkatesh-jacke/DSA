@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="CountPairs">
-      <change afterPath="$PROJECT_DIR$/src/gfg/SumClosest.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="SumClosest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00005" summary="stack implementation">
-      <created>1705327377830</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705327377830</updated>
     </task>
     <task id="LOCAL-00006" summary="stack implementation">
       <created>1705327422700</created>
@@ -479,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1736065073892</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="SumClosest">
+      <created>1736140116922</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736140116922</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="03-04-2024" />
     <MESSAGE value="Halloumi_Boxes" />
     <MESSAGE value="codeforce" />
     <MESSAGE value="codeforce 05-04-2024" />
@@ -508,7 +506,8 @@
     <MESSAGE value="23-12-24" />
     <MESSAGE value="gfg potd" />
     <MESSAGE value="CountPairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountPairs" />
+    <MESSAGE value="SumClosest" />
+    <option name="LAST_COMMIT_MESSAGE" value="SumClosest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
