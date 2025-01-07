@@ -4,7 +4,9 @@ package gfg;
 //https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1
 public class CountPairs2 {
     public static void main(String[] args) {
-
+        int[] arr = {1, 1, 1, 1};
+        int target = 2;
+        System.out.println(countPairs(arr, target));
     }
 
     static int countPairs(int arr[], int target) {
