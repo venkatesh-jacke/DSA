@@ -1,4 +1,4 @@
-package Tree.Recursion;
+package Tree.Recursion.Traversals;
 
 import Tree.TreeNode;
 

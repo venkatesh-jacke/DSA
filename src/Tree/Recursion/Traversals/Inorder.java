@@ -1,12 +1,11 @@
-package Tree.Interative;
+package Tree.Recursion.Traversals;
 
 import Tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
-public class InOrder  {
+public class Inorder {
 
     static List<Integer> result= new ArrayList<>();
     public static void main(String[] args) {
@@ -15,16 +14,10 @@ public class InOrder  {
         System.out.println(inOrder(root));
     }
     static List<Integer> inOrder(TreeNode root){
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode current= root;
-        while(current!=null || !stack.isEmpty()){
-            while(current!=null){
-                stack.push(current);
-                current=current.left; //Move to the left subtree
-            }
-            current=stack.pop(); //Process the root node
-            result.add(current.data);
-            current=current.right; // Move to right subtree
+        if(root!=null){
+            inOrder(root.left);
+            result.add(root.data);
+            inOrder(root.right);
         }
         return result;
     }
@@ -42,3 +35,4 @@ InOrder (Left-Root-Right)
 [4, 2, 5, 1, 6, 3, 7]
 
 */
+

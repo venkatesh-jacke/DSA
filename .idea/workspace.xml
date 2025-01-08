@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="CountPairs">
-      <change afterPath="$PROJECT_DIR$/src/gfg/CountTriangles.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="countTriangles">
+      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/LevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/InOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/PostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Traversals/Inorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Traversals/PostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Traversals/Preorder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountTriangles">
+  <component name="RunManager" selected="Application.LevelOrder">
     <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gfg.CountTriangles" />
       <module name="DSA-JAVA" />
@@ -84,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graphs.Directed.AdjancyList.Dijkstra (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Graphs.Directed.AdjancyList.Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.Directed.AdjancyList.Dijkstra" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graphs.Directed.AdjancyList.Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Directed.AdjancyList.Dijkstra" />
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Interative.Traversals.LevelOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.Directed.AdjancyList.*" />
+          <option name="PATTERN" value="Tree.Interative.Traversals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrder" />
         <item itemvalue="Application.CountTriangles" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra" />
-        <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added recursion playlist">
-      <created>1705477944074</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1705477944074</updated>
     </task>
     <task id="LOCAL-00009" summary="hashset treeset linkedhashset">
       <created>1705739532849</created>
@@ -479,11 +478,17 @@
       <option name="project" value="LOCAL" />
       <updated>1736224309928</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="countTriangles">
+      <created>1736319267118</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1736319267118</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Halloumi_Boxes" />
     <MESSAGE value="codeforce" />
     <MESSAGE value="codeforce 05-04-2024" />
     <MESSAGE value="07-04-24" />
@@ -508,7 +513,8 @@
     <MESSAGE value="gfg potd" />
     <MESSAGE value="SumClosest" />
     <MESSAGE value="CountPairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountPairs" />
+    <MESSAGE value="countTriangles" />
+    <option name="LAST_COMMIT_MESSAGE" value="countTriangles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -874,22 +880,22 @@
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/Traversals/PostOrder.java</url>
           <line>31</line>
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/Traversals/PostOrder.java</url>
           <line>35</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/Traversals/PostOrder.java</url>
           <line>23</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tree/Interative/PostOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/Tree/Interative/Traversals/PostOrder.java</url>
           <line>20</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
@@ -1265,12 +1271,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
-          <line>33</line>
+          <line>35</line>
           <option name="timeStamp" value="531" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="532" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

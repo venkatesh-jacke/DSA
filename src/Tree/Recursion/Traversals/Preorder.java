@@ -1,28 +1,27 @@
-package Tree.Recursion;
+package Tree.Recursion.Traversals;
 
 import Tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Inorder {
+public class Preorder {
 
     static List<Integer> result= new ArrayList<>();
     public static void main(String[] args) {
         Integer[] arr={1, 2, 3, 4, 5, 6, 7};
         TreeNode root= TreeNode.buildTree(arr);
-        System.out.println(inOrder(root));
+        System.out.println(preOrder(root));
     }
-    static List<Integer> inOrder(TreeNode root){
+    static List<Integer> preOrder(TreeNode root){
         if(root!=null){
-            inOrder(root.left);
             result.add(root.data);
-            inOrder(root.right);
+            preOrder(root.left);
+            preOrder(root.right);
         }
         return result;
     }
 }
-
 /*
 Binary-Tree
        1
@@ -31,8 +30,7 @@ Binary-Tree
     / \ / \
    4  5 6  7
 
-InOrder (Left-Root-Right)
-[4, 2, 5, 1, 6, 3, 7]
+ PreOrder (Root-Left-Right)
+[1, 2, 4, 5, 3, 6, 7]
 
 */
-
