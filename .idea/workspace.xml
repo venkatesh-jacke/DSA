@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="SumClosest">
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="CountPairs">
+      <change afterPath="$PROJECT_DIR$/src/gfg/CountTriangles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +57,13 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sample">
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
+  <component name="RunManager" selected="Application.CountTriangles">
+    <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.CountTriangles" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="gfg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecreasingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.DecreasingStack" />
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTriangles" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra" />
         <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra (1)" />
-        <item itemvalue="Application.DecreasingStack" />
       </list>
     </recent_temporary>
   </component>
@@ -134,20 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00006" summary="stack implementation">
-      <created>1705327422700</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1705327422700</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added recursion playlist">
-      <created>1705477862790</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1705477862790</updated>
     </task>
     <task id="LOCAL-00008" summary="added recursion playlist">
       <created>1705477944074</created>
@@ -478,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736140116922</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="CountPairs">
+      <created>1736224265332</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1736224265332</updated>
+    </task>
+    <task id="LOCAL-00056" summary="CountPairs">
+      <created>1736224309928</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1736224309928</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -505,9 +506,9 @@
     <MESSAGE value="11-10-24" />
     <MESSAGE value="23-12-24" />
     <MESSAGE value="gfg potd" />
-    <MESSAGE value="CountPairs" />
     <MESSAGE value="SumClosest" />
-    <option name="LAST_COMMIT_MESSAGE" value="SumClosest" />
+    <MESSAGE value="CountPairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountPairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1261,6 +1262,16 @@
           <url>file://$PROJECT_DIR$/src/Sample.java</url>
           <line>13</line>
           <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="532" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
