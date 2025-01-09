@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="countTriangles">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/LevelOrder.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="trees">
+      <change afterPath="$PROJECT_DIR$/src/gfg/SubArraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/InOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Interative/PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Interative/Traversals/PreOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Traversals/Inorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Traversals/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Recursion/Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Recursion/Traversals/Preorder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LevelOrder">
+  <component name="RunManager" selected="Application.SubArraySum">
     <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gfg.CountTriangles" />
       <module name="DSA-JAVA" />
@@ -83,19 +77,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Graphs.Directed.AdjancyList.Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Directed.AdjancyList.Dijkstra" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.Directed.AdjancyList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.SubArraySum" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubArraySum" />
         <item itemvalue="Application.LevelOrder" />
         <item itemvalue="Application.CountTriangles" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.CyclicSort" />
-        <item itemvalue="Application.Graphs.Directed.AdjancyList.Dijkstra" />
       </list>
     </recent_temporary>
   </component>
@@ -141,13 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00009" summary="hashset treeset linkedhashset">
-      <created>1705739532849</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1705739532849</updated>
     </task>
     <task id="LOCAL-00010" summary="hashset treeset linkedhashset">
       <created>1705739600912</created>
@@ -485,11 +472,17 @@
       <option name="project" value="LOCAL" />
       <updated>1736319267118</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="trees">
+      <created>1736345251770</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1736345251774</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codeforce" />
     <MESSAGE value="codeforce 05-04-2024" />
     <MESSAGE value="07-04-24" />
     <MESSAGE value="&#10;//https://codeforces.com/problemset/problem/1899/C" />
@@ -514,7 +507,8 @@
     <MESSAGE value="SumClosest" />
     <MESSAGE value="CountPairs" />
     <MESSAGE value="countTriangles" />
-    <option name="LAST_COMMIT_MESSAGE" value="countTriangles" />
+    <MESSAGE value="trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="trees" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,6 +1272,21 @@
           <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
           <line>38</line>
           <option name="timeStamp" value="532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="535" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
