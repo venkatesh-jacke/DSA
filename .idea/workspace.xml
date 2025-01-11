@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="countDistinct">
-      <change afterPath="$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="longestUniqueSubstr">
+      <change afterPath="$PROJECT_DIR$/src/Tree/Avl/Avl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg/CountDistinct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg/CountDistinct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +59,9 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestUniqueSubstr">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CountDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gfg.CountDistinct" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gfg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.CountTriangles" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -111,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Main" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gfg.SubArraySum" />
       <module name="DSA-JAVA" />
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LongestUniqueSubstr" />
         <item itemvalue="Application.CountDistinct" />
         <item itemvalue="Application.SubArraySum" />
         <item itemvalue="Application.LevelOrder" />
-        <item itemvalue="Application.CountTriangles" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00012" summary="jan 26">
-      <created>1706278574316</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1706278574316</updated>
     </task>
     <task id="LOCAL-00013" summary="Graph representation">
       <created>1707046883145</created>
@@ -486,11 +480,17 @@
       <option name="project" value="LOCAL" />
       <updated>1736573602948</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="longestUniqueSubstr">
+      <created>1736574390584</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1736574390584</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;//https://codeforces.com/problemset/problem/1899/C" />
     <MESSAGE value="Math module added" />
     <MESSAGE value="bITS" />
     <MESSAGE value="14-04-24" />
@@ -515,7 +515,8 @@
     <MESSAGE value="trees" />
     <MESSAGE value="SubArraySum" />
     <MESSAGE value="countDistinct" />
-    <option name="LAST_COMMIT_MESSAGE" value="countDistinct" />
+    <MESSAGE value="longestUniqueSubstr" />
+    <option name="LAST_COMMIT_MESSAGE" value="longestUniqueSubstr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1294,26 +1295,6 @@
           <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
           <line>42</line>
           <option name="timeStamp" value="540" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="541" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="542" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="543" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="544" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

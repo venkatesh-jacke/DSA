@@ -25,6 +25,8 @@ public class TreeNode {
         return (this.data) + "";
     }
 
+
+    //Method to print the tree [root,root.left,root.right,root.left.left,root.right.right
     public static List<Integer> printTree(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if (root == null) {
@@ -54,6 +56,7 @@ public class TreeNode {
         return list;
     }
 
+    //Method to build Binary Tree
     public static TreeNode buildTree(Integer[] arr) {
         if (arr.length == 0 || arr[0] == null) return null;
         TreeNode root = new TreeNode(arr[0]);
@@ -62,7 +65,7 @@ public class TreeNode {
         int i = 1;
         while (!queue.isEmpty() && i < arr.length) {
             TreeNode cur = queue.poll();
-            if (i<arr.length && arr[i] != null) {
+            if (i < arr.length && arr[i] != null) {
                 cur.left = new TreeNode(arr[i]);
                 queue.add(cur.left);
             }
@@ -75,6 +78,39 @@ public class TreeNode {
 
         }
         return root;
+    }
 
+
+    //Method to build Binary Search Tree
+    public static TreeNode buildBst(Integer[] arr) {
+        if (arr == null || arr.length == 0) return null;
+        TreeNode root = null;
+        for (Integer i : arr) {
+            if (i != null) {
+                root = insertIntoBst(root, i);
+            }
+        }
+        return root;
+
+    }
+
+    private static TreeNode insertIntoBst(TreeNode root, int val) {
+        if (root == null) {
+            return new TreeNode(val);
+        }
+        if (val < root.data) {
+            root.left = insertIntoBst(root.left, val);
+        } else {
+            root.right = insertIntoBst(root.right, val);
+        }
+        return root;
+    }
+
+    //InOrder (left-root-right)
+    public static void inOrder(TreeNode root){
+        if(root==null) return;
+        inOrder(root.left);
+        System.out.print(root.data+" ");
+        inOrder(root.right);
     }
 }
