@@ -1,26 +1,28 @@
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Sample {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 4, 2, 2};
-        System.out.println(findDuplicate(arr));
+
     }
 
-    static public int findDuplicate(int[] nums) {
-        int n = nums.length;
-        int i = 0;
-        while (i < n) {
-            int correctIndex = nums[i] - 1;
-            if (nums[correctIndex] != nums[i]) {
-                if (nums[correctIndex] == nums[i])
-                    return nums[i];
-                int temp = nums[correctIndex];
-                nums[correctIndex] = nums[i];
-                nums[i] = temp;
-            } else {
-                i++;
-            }
+    public static List<Integer> circularArrayRotation(List<Integer> a, int k, List<Integer> queries) {
+        // Write your code here
+        List<Integer> res = new ArrayList<>();
+        List<Integer> arr = new ArrayList<>();
+        k = k % a.size();
+
+        for (int i = a.size() - k; i < a.size(); i++) {
+            arr.add(a.get(i));
         }
-        return n;
+        for (int i = 0; i < a.size() - k; i++) {
+            arr.add(a.get(i));
+        }
+        System.out.println(arr);
+
+        for (int q : queries) {
+            res.add(a.get(q));
+        }
+        return res;
     }
 }

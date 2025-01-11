@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="trees">
-      <change afterPath="$PROJECT_DIR$/src/gfg/SubArraySum.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="SubArraySum">
+      <change afterPath="$PROJECT_DIR$/src/gfg/CountDistinct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +58,9 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubArraySum">
-    <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.CountTriangles" />
+  <component name="RunManager" selected="Application.CountDistinct">
+    <configuration name="CountDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.CountDistinct" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
+    <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.CountTriangles" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="gfg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDistinct" />
         <item itemvalue="Application.SubArraySum" />
         <item itemvalue="Application.LevelOrder" />
         <item itemvalue="Application.CountTriangles" />
         <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.CyclicSort" />
       </list>
     </recent_temporary>
   </component>
@@ -135,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00010" summary="hashset treeset linkedhashset">
-      <created>1705739600912</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1705739600912</updated>
     </task>
     <task id="LOCAL-00011" summary="jan 20">
       <created>1705755717222</created>
@@ -479,11 +473,17 @@
       <option name="project" value="LOCAL" />
       <updated>1736345251774</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="SubArraySum">
+      <created>1736402273584</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1736402273585</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codeforce 05-04-2024" />
     <MESSAGE value="07-04-24" />
     <MESSAGE value="&#10;//https://codeforces.com/problemset/problem/1899/C" />
     <MESSAGE value="Math module added" />
@@ -508,7 +508,8 @@
     <MESSAGE value="CountPairs" />
     <MESSAGE value="countTriangles" />
     <MESSAGE value="trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="trees" />
+    <MESSAGE value="SubArraySum" />
+    <option name="LAST_COMMIT_MESSAGE" value="SubArraySum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1250,18 +1251,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sample.java</url>
-          <line>20</line>
+          <line>27</line>
           <option name="timeStamp" value="528" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sample.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="529" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sample.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="530" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
@@ -1275,18 +1266,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="533" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="534" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="535" />
+          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="540" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
