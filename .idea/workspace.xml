@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="longestUniqueSubstr">
-      <change afterPath="$PROJECT_DIR$/src/Tree/Avl/Avl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Main.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Avl/Avl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Avl/Avl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +59,13 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.CountDistinct" />
+  <component name="RunManager" selected="Application.Avl">
+    <configuration name="Avl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Avl.Avl" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg.*" />
+          <option name="PATTERN" value="Tree.Avl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,21 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Interative.Traversals.LevelOrder" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.Interative.Traversals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestUniqueSubstr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.LongestUniqueSubstr" />
+    <configuration name="FindEquilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.FindEquilibrium" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.SubArraySum" />
+    <configuration name="MaxWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.MaxWater" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxWater2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.MaxWater2" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Avl" />
+        <item itemvalue="Application.FindEquilibrium" />
+        <item itemvalue="Application.MaxWater2" />
+        <item itemvalue="Application.MaxWater" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LongestUniqueSubstr" />
-        <item itemvalue="Application.CountDistinct" />
-        <item itemvalue="Application.SubArraySum" />
-        <item itemvalue="Application.LevelOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -143,34 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Graph representation">
-      <created>1707046883145</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1707046883145</updated>
-    </task>
-    <task id="LOCAL-00014" summary="bfs and dfs">
-      <created>1707061671640</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1707061671640</updated>
-    </task>
-    <task id="LOCAL-00015" summary="16-02-14">
-      <created>1708094693936</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1708094693936</updated>
-    </task>
-    <task id="LOCAL-00016" summary="16-02-14">
-      <created>1708098221173</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1708098221173</updated>
     </task>
     <task id="LOCAL-00017" summary="18-02-14">
       <created>1708254513317</created>
@@ -487,14 +459,38 @@
       <option name="project" value="LOCAL" />
       <updated>1736574390584</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="BST">
+      <created>1736583960365</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1736583960365</updated>
+    </task>
+    <task id="LOCAL-00063" summary="https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1">
+      <created>1736671424653</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1736671424654</updated>
+    </task>
+    <task id="LOCAL-00064" summary="https://www.geeksforgeeks.org/problems/container-with-most-water0535/1">
+      <created>1736785830145</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1736785830146</updated>
+    </task>
+    <task id="LOCAL-00065" summary="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1">
+      <created>1736836023577</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1736836023577</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Math module added" />
-    <MESSAGE value="bITS" />
-    <MESSAGE value="14-04-24" />
-    <MESSAGE value="https://codeforces.com/problemset/problem/1881/D" />
     <MESSAGE value="Prime factors" />
     <MESSAGE value="https://codeforces.com/problemset/problem/1692/G" />
     <MESSAGE value="https://codeforces.com/problemset/problem/1380/A" />
@@ -516,7 +512,11 @@
     <MESSAGE value="SubArraySum" />
     <MESSAGE value="countDistinct" />
     <MESSAGE value="longestUniqueSubstr" />
-    <option name="LAST_COMMIT_MESSAGE" value="longestUniqueSubstr" />
+    <MESSAGE value="BST" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/container-with-most-water0535/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1295,6 +1295,26 @@
           <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
           <line>42</line>
           <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/MaxWater.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="541" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/MaxWater.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="543" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/MaxWater.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="544" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/MaxWater2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="546" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

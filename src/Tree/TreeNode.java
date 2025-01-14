@@ -80,6 +80,11 @@ public class TreeNode {
         return root;
     }
 
+    private static int height(TreeNode node) {
+        if (node == null) return 0;
+        return Math.max(height(node.left), height(node.right)) + 1;
+    }
+
 
     //Method to build Binary Search Tree
     public static TreeNode buildBst(Integer[] arr) {
@@ -103,14 +108,61 @@ public class TreeNode {
         } else {
             root.right = insertIntoBst(root.right, val);
         }
-        return root;
+        //return root;
+        return rotate(root);
     }
 
+    private static TreeNode rotate(TreeNode node) {
+        if (node == null) return null;
+
+        int balance = height(node.left) - height(node.right);
+
+        if (balance > 1) {
+            // Left heavy
+            if (height(node.left.left) < height(node.left.right)) {
+                // Left-right case
+                node.left = leftRotate(node.left);
+            }
+            // Left-Left case
+            return rightRotate(node);
+
+        } else if (balance < -1) {
+            // Right heavy
+            if (height(node.right.right) < height(node.right.left)) {
+                // Right-Left case
+                node.right = rightRotate(node.right);
+            }
+            // Right-Right case
+            return leftRotate(node);
+
+        }
+
+        return node; // Already balanced
+    }
+
+
+    // Left rotate the tree rooted at node
+    private static TreeNode leftRotate(TreeNode c) {
+        TreeNode p = c.right;
+        c.right = p.left;
+        p.left = c;
+        return p;
+    }
+
+    // Right rotate the tree rooted at node
+    private static TreeNode rightRotate(TreeNode p) {
+        TreeNode c = p.left;
+        p.left = c.right;
+        c.right = p;
+        return c;
+    }
+
+
     //InOrder (left-root-right)
-    public static void inOrder(TreeNode root){
-        if(root==null) return;
+    public static void inOrder(TreeNode root) {
+        if (root == null) return;
         inOrder(root.left);
-        System.out.print(root.data+" ");
+        System.out.print(root.data + " ");
         inOrder(root.right);
     }
 }
