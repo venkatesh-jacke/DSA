@@ -10,5 +10,6 @@ public class Avl {
         TreeNode.inOrder(avlTree);
         System.out.println();
         System.out.println("AVL Tree (Level Order): " + TreeNode.printTree(avlTree));
+        System.out.println("Height of Avl tree is "+TreeNode.height(avlTree));
     }
 }

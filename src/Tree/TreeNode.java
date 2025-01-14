@@ -80,7 +80,7 @@ public class TreeNode {
         return root;
     }
 
-    private static int height(TreeNode node) {
+    public static int height(TreeNode node) {
         if (node == null) return 0;
         return Math.max(height(node.left), height(node.right)) + 1;
     }
