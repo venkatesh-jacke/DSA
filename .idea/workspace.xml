@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="Avl Tree">
-      <change beforePath="$PROJECT_DIR$/src/Tree/Avl/Avl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Avl/Avl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1">
+      <change afterPath="$PROJECT_DIR$/src/gfg/MaxLen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Avl/Avl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Avl/Avl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Avl">
+  <component name="RunManager" selected="Application.MaxLen">
     <configuration name="Avl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.Avl.Avl" />
       <module name="DSA-JAVA" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Main" />
+    <configuration name="LongestSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.LongestSubarray" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.*" />
+          <option name="PATTERN" value="gfg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.MaxWater" />
+    <configuration name="MaxLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.MaxLen" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxLen" />
+        <item itemvalue="Application.LongestSubarray" />
         <item itemvalue="Application.Avl" />
         <item itemvalue="Application.FindEquilibrium" />
         <item itemvalue="Application.MaxWater2" />
-        <item itemvalue="Application.MaxWater" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,20 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00018" summary="29-02-14">
-      <created>1709189613850</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1709189613850</updated>
-    </task>
-    <task id="LOCAL-00019" summary="04-03-2024">
-      <created>1709525550107</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1709525550107</updated>
     </task>
     <task id="LOCAL-00020" summary="hashMap methods">
       <created>1709810132323</created>
@@ -485,11 +472,24 @@
       <option name="project" value="LOCAL" />
       <updated>1736843525736</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Avl Tree">
+      <created>1736844215599</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1736844215599</updated>
+    </task>
+    <task id="LOCAL-00068" summary="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1">
+      <created>1736928510102</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1736928510102</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="https://codeforces.com/problemset/problem/1692/G" />
     <MESSAGE value="https://codeforces.com/problemset/problem/1380/A" />
     <MESSAGE value="dry run" />
     <MESSAGE value="https://www.naukri.com/code360/problems/longest-mountain-subarray_893069?leftPanelTabValue=SUBMISSION" />
@@ -514,7 +514,8 @@
     <MESSAGE value="https://www.geeksforgeeks.org/problems/container-with-most-water0535/1" />
     <MESSAGE value="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1" />
     <MESSAGE value="Avl Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avl Tree" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,6 +1314,21 @@
           <url>file://$PROJECT_DIR$/src/gfg/MaxWater2.java</url>
           <line>22</line>
           <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/LongestSubarray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/LongestSubarray.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/LongestSubarray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="551" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
