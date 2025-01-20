@@ -1,4 +1,4 @@
-package gfg;
+package gfg_2025;
 
 //https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1
 

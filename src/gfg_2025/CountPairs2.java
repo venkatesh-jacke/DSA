@@ -1,4 +1,4 @@
-package gfg;
+package gfg_2025;
 
 
 //https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1

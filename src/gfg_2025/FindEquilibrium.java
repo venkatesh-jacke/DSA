@@ -1,4 +1,4 @@
-package gfg;
+package gfg_2025;
 
 
 //https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1

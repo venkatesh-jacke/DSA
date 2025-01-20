@@ -4,10 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1">
-      <change afterPath="$PROJECT_DIR$/src/gfg/MaxLen.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1">
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/SortedMerge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Avl/Avl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Avl/Avl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Anagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/CountDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/CountPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/CountPairs2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountPairs2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/CountSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/CountTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountTriangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/CountTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountTriplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/FindEquilibrium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/FindEquilibrium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/LongestSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/LongestSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/LongestUniqueSubstr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/MaxLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/MaxLen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/MaxWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/MaxWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/MaxWater2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/MaxWater2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/ProductExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/RotateK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/RotateK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/SubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SubArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/SubarrayXor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SubarrayXor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SumClosest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,52 +78,13 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxLen">
-    <configuration name="Avl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Avl.Avl" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.Avl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindEquilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.FindEquilibrium" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gfg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.LongestSubarray" />
-      <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gfg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortedMerge">
     <configuration name="MaxLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.MaxLen" />
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.MaxLen" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg.*" />
+          <option name="PATTERN" value="gfg_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +92,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWater2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.MaxWater2" />
+    <configuration name="ProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.ProductExceptSelf" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg.*" />
+          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.ReverseList" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.RotateK" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.SortedMerge" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedMerge" />
+        <item itemvalue="Application.RotateK" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.ProductExceptSelf" />
         <item itemvalue="Application.MaxLen" />
-        <item itemvalue="Application.LongestSubarray" />
-        <item itemvalue="Application.Avl" />
-        <item itemvalue="Application.FindEquilibrium" />
-        <item itemvalue="Application.MaxWater2" />
       </list>
     </recent_temporary>
   </component>
@@ -142,34 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00020" summary="hashMap methods">
-      <created>1709810132323</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1709810132323</updated>
-    </task>
-    <task id="LOCAL-00021" summary="07-03-24">
-      <created>1709820575017</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1709820575017</updated>
-    </task>
-    <task id="LOCAL-00022" summary="07-03-24">
-      <created>1709821419865</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1709821419865</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Tree Traversal">
-      <created>1710075980855</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1710075980855</updated>
     </task>
     <task id="LOCAL-00024" summary="Tree Traversal">
       <created>1710087537393</created>
@@ -486,14 +478,38 @@
       <option name="project" value="LOCAL" />
       <updated>1736928510102</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="//https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1">
+      <created>1737043219735</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1737043219735</updated>
+    </task>
+    <task id="LOCAL-00070" summary="https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1">
+      <created>1737091250983</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1737091250985</updated>
+    </task>
+    <task id="LOCAL-00071" summary="https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1">
+      <created>1737183836818</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1737183836819</updated>
+    </task>
+    <task id="LOCAL-00072" summary="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1">
+      <created>1737270913812</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1737270913812</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="https://codeforces.com/problemset/problem/1380/A" />
-    <MESSAGE value="dry run" />
-    <MESSAGE value="https://www.naukri.com/code360/problems/longest-mountain-subarray_893069?leftPanelTabValue=SUBMISSION" />
-    <MESSAGE value="commit" />
     <MESSAGE value="15-05-24" />
     <MESSAGE value="17-05-24" />
     <MESSAGE value="heapify" />
@@ -515,7 +531,11 @@
     <MESSAGE value="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1" />
     <MESSAGE value="Avl Tree" />
     <MESSAGE value="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1" />
-    <option name="LAST_COMMIT_MESSAGE" value="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1261,74 +1281,79 @@
           <option name="timeStamp" value="528" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/CountTriangles.java</url>
           <line>35</line>
           <option name="timeStamp" value="531" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/CountTriangles.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/CountTriangles.java</url>
           <line>38</line>
           <option name="timeStamp" value="532" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/SubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/SubArraySum.java</url>
           <line>26</line>
           <option name="timeStamp" value="534" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/CountDistinct.java</url>
           <line>32</line>
           <option name="timeStamp" value="536" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/CountDistinct.java</url>
           <line>53</line>
           <option name="timeStamp" value="538" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/CountDistinct.java</url>
           <line>47</line>
           <option name="timeStamp" value="539" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/CountDistinct.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/CountDistinct.java</url>
           <line>42</line>
           <option name="timeStamp" value="540" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/MaxWater.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxWater.java</url>
           <line>25</line>
           <option name="timeStamp" value="541" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/MaxWater.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxWater.java</url>
           <line>42</line>
           <option name="timeStamp" value="543" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/MaxWater.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxWater.java</url>
           <line>49</line>
           <option name="timeStamp" value="544" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/MaxWater2.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxWater2.java</url>
           <line>22</line>
           <option name="timeStamp" value="546" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestSubarray.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/LongestSubarray.java</url>
           <line>26</line>
           <option name="timeStamp" value="549" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestSubarray.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/LongestSubarray.java</url>
           <line>30</line>
           <option name="timeStamp" value="550" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/gfg/LongestSubarray.java</url>
+          <url>file://$PROJECT_DIR$/src/gfg_2025/LongestSubarray.java</url>
           <line>23</line>
           <option name="timeStamp" value="551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/ProductExceptSelf.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="552" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

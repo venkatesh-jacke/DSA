@@ -1,4 +1,4 @@
-package gfg;
+package gfg_2025;
 
 import java.util.*;
 

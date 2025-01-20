@@ -1,4 +1,4 @@
-package gfg;
+package gfg_2025;
 
 
 //https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1

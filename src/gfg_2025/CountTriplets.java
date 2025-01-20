@@ -1,4 +1,4 @@
-package gfg;
+package gfg_2025;
 
 
 //https://www.geeksforgeeks.org/problems/count-all-triplets-with-given-sum-in-sorted-array/1
