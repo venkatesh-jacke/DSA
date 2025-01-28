@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1">
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/SortedMerge.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1">
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/CloneLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/FindFirstNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/FindPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/RemoveLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/ReverseKGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Avl/Avl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Tree/Avl/Avl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Anagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/CountDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/CountPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/CountPairs2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountPairs2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/CountSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountSubarrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/CountTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountTriangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/CountTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/CountTriplets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/FindEquilibrium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/FindEquilibrium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/LongestSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/LongestSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/LongestUniqueSubstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/LongestUniqueSubstr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/MaxLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/MaxLen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/MaxWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/MaxWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/MaxWater2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/MaxWater2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/ProductExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/RotateK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/RotateK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/SubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SubArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/SubarrayXor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SubarrayXor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg/SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SumClosest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/CloneLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/CloneLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/AddTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/AddTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/RotateK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/RotateK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/SortedMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/SortedMerge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +68,9 @@
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedMerge">
-    <configuration name="MaxLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.MaxLen" />
+  <component name="RunManager" selected="Application.RemoveLoop">
+    <configuration name="AddTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.AddTwoLists" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.ProductExceptSelf" />
+    <configuration name="CloneLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.CloneLinkedList" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.ReverseList" />
+    <configuration name="FindFirstNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.FindFirstNode" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.RotateK" />
+    <configuration name="RemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.RemoveLoop" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLoop" />
+        <item itemvalue="Application.FindFirstNode" />
+        <item itemvalue="Application.CloneLinkedList" />
+        <item itemvalue="Application.AddTwoLists" />
         <item itemvalue="Application.SortedMerge" />
-        <item itemvalue="Application.RotateK" />
-        <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.ProductExceptSelf" />
-        <item itemvalue="Application.MaxLen" />
       </list>
     </recent_temporary>
   </component>
@@ -162,27 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Tree Traversal">
-      <created>1710087537393</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1710087537393</updated>
-    </task>
-    <task id="LOCAL-00025" summary="03-04-2024">
-      <created>1712129542165</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1712129542165</updated>
-    </task>
-    <task id="LOCAL-00026" summary="03-04-2024">
-      <created>1712129558262</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1712129558262</updated>
     </task>
     <task id="LOCAL-00027" summary="Halloumi_Boxes">
       <created>1712129567625</created>
@@ -506,14 +475,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737270913812</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1">
+      <created>1737389708996</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1737389708996</updated>
+    </task>
+    <task id="LOCAL-00074" summary="https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1">
+      <created>1737523667335</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1737523667335</updated>
+    </task>
+    <task id="LOCAL-00075" summary="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1">
+      <created>1737691878882</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1737691878884</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15-05-24" />
-    <MESSAGE value="17-05-24" />
-    <MESSAGE value="heapify" />
-    <MESSAGE value="QuickSelect algo" />
     <MESSAGE value="21-09-24" />
     <MESSAGE value="11-10-24" />
     <MESSAGE value="23-12-24" />
@@ -535,7 +521,11 @@
     <MESSAGE value="https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1" />
     <MESSAGE value="https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1" />
     <MESSAGE value="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1354,6 +1344,51 @@
           <url>file://$PROJECT_DIR$/src/gfg_2025/ProductExceptSelf.java</url>
           <line>27</line>
           <option name="timeStamp" value="552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/AddTwoLists.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindFirstNode.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindFirstNode.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindFirstNode.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindFirstNode.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Node.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Node.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Node.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="566" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/RemoveLoop.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="567" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
