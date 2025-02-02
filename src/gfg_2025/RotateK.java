@@ -13,7 +13,7 @@ public class RotateK {
         head.next.next.next.next.next = new Node(60);
         head.next.next.next.next.next.next = new Node(70);
         int k = 4;
-        Node.PrintLL(rotate(head, k));
+        Node.printLL(rotate(head, k));
     }
 
     static public Node rotate(Node head, int k) {

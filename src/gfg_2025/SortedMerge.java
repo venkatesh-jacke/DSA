@@ -7,7 +7,7 @@ public class SortedMerge {
         int[] a2 = {2, 3, 20};
         Node head1 = Node.buildLL(a1);
         Node head2 = Node.buildLL(a2);
-        Node.PrintLL(sortedMerge(head1, head2));
+        Node.printLL(sortedMerge(head1, head2));
     }
 
     static Node sortedMerge(Node head1, Node head2) {

@@ -4,15 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1">
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/level-order-traversal/1">
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/UnDirected/Dsu/QuickFind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/UnDirected/Dsu/QuickFindTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/UnDirected/Dsu/QuickRank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/UnDirected/Dsu/QuickRankTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/UnDirected/Dsu/QuickUnion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Graphs/UnDirected/Dsu/QuickUnionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/FindPermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/IsWordExist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/NQueen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Power.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/Dsu/QuickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/Dsu/QuickFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/Dsu/QuickRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/Dsu/QuickRankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/Dsu/QuickUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnDirected/Dsu/QuickUnionTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/gfg_2025/CloneLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/FindFirstNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/FindPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/RemoveLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/Power.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/gfg_2025/ReverseKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/Tree/LevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/Tree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/CloneLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/CloneLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/RemoveLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/RemoveLoop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gfg_2025/AddTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/AddTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gfg_2025/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gfg_2025/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/ReverseList.java" afterDir="false" />
@@ -60,21 +77,23 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DSA-JAVA\src\gfg_2025\Tree" />
       <recent name="D:\DSA-JAVA\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Graphs.UnDirected.Dsu" />
       <recent name="Tree.Interative" />
       <recent name="Graphs.Representations.AdjacencyMatrix" />
       <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveLoop">
-    <configuration name="AddTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.AddTwoLists" />
+  <component name="RunManager" selected="Application.LevelOrder">
+    <configuration name="IsWordExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.IsWordExist" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="gfg_2025.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.CloneLinkedList" />
+    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.Tree.LevelOrder" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="gfg_2025.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.FindFirstNode" />
+    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg_2025.NQueen" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="gfg_2025.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.RemoveLoop" />
+    <configuration name="QuickRankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.UnDirected.Dsu.QuickRankTest" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="Graphs.UnDirected.Dsu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.SortedMerge" />
+    <configuration name="QuickUnionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.UnDirected.Dsu.QuickUnionTest" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="Graphs.UnDirected.Dsu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveLoop" />
-        <item itemvalue="Application.FindFirstNode" />
-        <item itemvalue="Application.CloneLinkedList" />
-        <item itemvalue="Application.AddTwoLists" />
-        <item itemvalue="Application.SortedMerge" />
+        <item itemvalue="Application.LevelOrder" />
+        <item itemvalue="Application.QuickRankTest" />
+        <item itemvalue="Application.QuickUnionTest" />
+        <item itemvalue="Application.NQueen" />
+        <item itemvalue="Application.IsWordExist" />
       </list>
     </recent_temporary>
   </component>
@@ -152,48 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Halloumi_Boxes">
-      <created>1712129567625</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1712129567625</updated>
-    </task>
-    <task id="LOCAL-00028" summary="codeforce">
-      <created>1712241541670</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1712241541670</updated>
-    </task>
-    <task id="LOCAL-00029" summary="codeforce 05-04-2024">
-      <created>1712337967538</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1712337967538</updated>
-    </task>
-    <task id="LOCAL-00030" summary="07-04-24">
-      <created>1712497920683</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1712497920683</updated>
-    </task>
-    <task id="LOCAL-00031" summary="07-04-24">
-      <created>1712497934633</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1712497934633</updated>
-    </task>
-    <task id="LOCAL-00032" summary="&#10;//https://codeforces.com/problemset/problem/1899/C">
-      <created>1712732709594</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1712732709594</updated>
     </task>
     <task id="LOCAL-00033" summary="Math module added">
       <created>1712732730478</created>
@@ -496,16 +473,52 @@
       <option name="project" value="LOCAL" />
       <updated>1737691878884</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1">
+      <created>1738080213736</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1738080213736</updated>
+    </task>
+    <task id="LOCAL-00077" summary="https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1">
+      <created>1738080294631</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1738080294631</updated>
+    </task>
+    <task id="LOCAL-00078" summary="https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1">
+      <created>1738080310384</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1738080310385</updated>
+    </task>
+    <task id="LOCAL-00079" summary="https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1">
+      <created>1738080347297</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1738080347297</updated>
+    </task>
+    <task id="LOCAL-00080" summary="https://www.geeksforgeeks.org/problems/word-search/1">
+      <created>1738396030127</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1738396030128</updated>
+    </task>
+    <task id="LOCAL-00081" summary="https://www.geeksforgeeks.org/problems/n-queen-problem0315/1">
+      <created>1738398194687</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1738398194687</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="21-09-24" />
-    <MESSAGE value="11-10-24" />
-    <MESSAGE value="23-12-24" />
-    <MESSAGE value="gfg potd" />
-    <MESSAGE value="SumClosest" />
-    <MESSAGE value="CountPairs" />
     <MESSAGE value="countTriangles" />
     <MESSAGE value="trees" />
     <MESSAGE value="SubArraySum" />
@@ -525,7 +538,13 @@
     <MESSAGE value="https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1" />
     <MESSAGE value="https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1" />
     <MESSAGE value="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/word-search/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/n-queen-problem0315/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/level-order-traversal/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/level-order-traversal/1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1387,8 +1406,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gfg_2025/RemoveLoop.java</url>
-          <line>5</line>
+          <line>8</line>
           <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/IsWordExist.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/IsWordExist.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="569" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/IsWordExist.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="570" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>

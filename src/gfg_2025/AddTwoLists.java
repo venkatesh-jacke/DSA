@@ -5,7 +5,7 @@ package gfg_2025;
 
 public class AddTwoLists {
     public static void main(String[] args) {
-        Node.PrintLL(addTwoLists(Node.buildLL(new int[]{4, 5}), Node.buildLL(new int[]{3, 4, 5})));
+        Node.printLL(addTwoLists(Node.buildLL(new int[]{4, 5}), Node.buildLL(new int[]{3, 4, 5})));
     }
 
     static Node addTwoLists(Node num1, Node num2) {
