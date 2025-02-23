@@ -5,6 +5,8 @@ package gfg_2025;
 import java.util.HashMap;
 import java.util.Stack;
 
+//https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1
+
 public class IsBalanced {
     public static void main(String[] args) {
         String s = "[()()]{}";
