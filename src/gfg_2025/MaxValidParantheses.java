@@ -2,6 +2,8 @@ package gfg_2025;
 
 import java.util.Stack;
 
+//https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1
+
 public class MaxValidParantheses {
     public static void main(String[] args) {
         String s = "((()";
