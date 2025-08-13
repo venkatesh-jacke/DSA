@@ -13,7 +13,7 @@ public class Main {
         dq.push(4); //Put the element in last
         System.out.println("After pushing "+dq);
         System.out.println("Peek is "+dq.peek());
-        System.out.println("poll "+dq.poll()); //It will remove the peek element wich means first element
+        System.out.println("poll "+dq.poll()); //It will remove the peek element which means first element
         System.out.println("After poll "+dq);
         dq.pollFirst();
         System.out.println("After pollFirst "+dq);

@@ -6,33 +6,19 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] arr = new int[]{5, 3, 1, 2, 4};
-        System.out.println("Using Dequeue");
-        decreasingQueue(arr);
+       int  n = 15;
+       int[][] queries = {{0,1},{2,2},{0,3}};
+        System.out.println(Arrays.toString(productQueries(n,queries)));
     }
 
-    static void decreasingQueue(int[] arr) {
-
-        int n = arr.length;
-        int[] firstSmallerToLeft = new int[n];
-        int[] firstSmallerToRight = new int[n];
-        Arrays.fill(firstSmallerToLeft, -1);
-        Arrays.fill(firstSmallerToRight, -1);
-        Deque<Integer> q = new LinkedList<>();
-        for (int i = 0; i < n; i++) {
-            int v = arr[i];
-            while (!q.isEmpty() && arr[q.peek()] <= v) {
-                firstSmallerToRight[q.remove()] = v;
-            }
-            if (!q.isEmpty())
-                firstSmallerToLeft[i] = arr[q.peek()];
-            q.push(i);
-        }
-        System.out.println("firstGreaterToLeft: " + Arrays.toString(firstSmallerToLeft));
-        System.out.println("firstGreaterToRight: " + Arrays.toString(firstSmallerToRight));
-    }
-
-
+     static public int[] productQueries(int n, int[][] queries) {
+         int[] power = new int[queries.length];
+         Arrays.fill(power,1);
+         for(int i=0;i<power.length;i++){
+             for(int j=queries[i][0];j<=queries[i][1];j++){
+                 power[i] *= Math.pow(2,j);
+             }
+         }
+         return power;
+     }
 }
-
-

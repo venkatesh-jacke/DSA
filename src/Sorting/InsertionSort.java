@@ -16,7 +16,7 @@ public class InsertionSort {
             int current = arr[i];
             System.out.println("\nCurrent key is " + current);
 
-            int j = i - 1;
+            int j = i - 1; //previous left items
             while (j >= 0 && arr[j] > current) {
                 System.out.println("Moving " + arr[j] + " to the right");
                 arr[j + 1] = arr[j];

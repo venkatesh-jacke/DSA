@@ -1,6 +1,7 @@
-package gfg_2025;
+package gfg_2025.BackTracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class NQueen2 {
@@ -13,10 +14,10 @@ public class NQueen2 {
 
     public static ArrayList<ArrayList<Integer>> nQueen(int n) {
         result = new ArrayList<>();
-        int[][] board = new int[n][n];
         boolean column[] = new boolean[n];
-        boolean leftDiagonal[] = new boolean[2 * n];
-        boolean rightDiagonal[] = new boolean[2 * n];
+        //There are 8 cells in both left and right diagonal
+        boolean leftDiagonal[] = new boolean[2 * n]; //(row-col)  +(n-1)  //n-1 is for adjusting the negative values
+        boolean rightDiagonal[] = new boolean[2 * n]; //(row+col)
         ArrayList<Integer> temp = new ArrayList<>();
         solve(n, 0, temp, column, leftDiagonal, rightDiagonal);
         return result;

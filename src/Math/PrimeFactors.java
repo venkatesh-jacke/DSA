@@ -2,7 +2,7 @@ package Math;
 
 public class PrimeFactors {
     public static void main(String[] args) {
-        int n = 100;
+        int n = 12;
         primeFactors(n);
     }
 

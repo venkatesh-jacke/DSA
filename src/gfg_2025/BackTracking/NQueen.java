@@ -1,4 +1,4 @@
-package gfg_2025;
+package gfg_2025.BackTracking;
 
 import java.util.*;
 
@@ -29,7 +29,7 @@ public class NQueen {
 
         //try to place queen in every column in a row
         for (int col = 0; col < n; col++) {
-            if (isSafe(board, n, row, col)) {
+            if (isSafe2(board, n, row, col)) {
                 board[row][col] = 1;
                 temp.add(col + 1);
                 solve(board, n, row + 1, temp);
@@ -59,4 +59,16 @@ public class NQueen {
 
         return true;
     }
+
+    public static boolean isSafe2(int[][] board, int n, int r, int c) {
+
+        for (int i = 0; i < r; i++) {
+            if (board[i][c] == 1) return false; //check the column
+            if (c - (r - i) >= 0 && board[i][c - (r - i)] == 1) return false; //Left diagonal
+            if (c + (r - i) < n && board[i][c + (r - i)] == 1) return false; //Right diagonal
+        }
+
+        return true;
+    }
+
 }

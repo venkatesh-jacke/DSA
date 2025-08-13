@@ -4,9 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="stash">
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/NQueen2.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1">
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/FindPermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/NQueen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/NQueen2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/SudokuSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PrimesUptoN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RotateArrLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RotateMatrix2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SpirallyTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/FindMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/PrevSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/SudokuSolver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/CountWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/FindPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/KLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/LongestBoundedDiffSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/Tree/SumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfg_2025/recursion/FindMaxSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/PrimeFactors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/PrimeFactors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/FindPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/NQueen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Diameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Diameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManupulation/BitManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManupulation/BitManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/minCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/minCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/QuickSelectMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/QuickSelectMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/PrimeFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/FindPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/FindPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/NQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/NQueen2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/NQueen2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg_2025/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Tree/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +99,20 @@
       <recent name="D:\DSA-JAVA\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Arrays" />
+      <recent name="Stack" />
+      <recent name="gfg_2025.Tree" />
+      <recent name="gfg_2025.BackTracking" />
       <recent name="Graphs.UnDirected.Dsu" />
-      <recent name="Tree.Interative" />
-      <recent name="Graphs.Representations.AdjacencyMatrix" />
-      <recent name="Graphs.Representations.AdjacencyList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NQueen2">
-    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.Tree.LevelOrder" />
+  <component name="RunManager" selected="Application.ConsecutiveOnes">
+    <configuration name="ConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManupulation.ConsecutiveOnes" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="BitManupulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.NQueen" />
+    <configuration name="DecreasingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.DecreasingQueue" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueen2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg_2025.NQueen2" />
+    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Gcd" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gfg_2025.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,25 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickRankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.UnDirected.Dsu.QuickRankTest" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="DSA-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.UnDirected.Dsu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickUnionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.UnDirected.Dsu.QuickUnionTest" />
+    <configuration name="minCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.minCoins" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.UnDirected.Dsu.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NQueen2" />
-        <item itemvalue="Application.LevelOrder" />
-        <item itemvalue="Application.QuickRankTest" />
-        <item itemvalue="Application.QuickUnionTest" />
-        <item itemvalue="Application.NQueen" />
+        <item itemvalue="Application.ConsecutiveOnes" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.minCoins" />
+        <item itemvalue="Application.Gcd" />
+        <item itemvalue="Application.DecreasingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -143,181 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00036" summary="14-04-24">
-      <created>1713112989222</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1713112989222</updated>
-    </task>
-    <task id="LOCAL-00037" summary="https://codeforces.com/problemset/problem/1881/D">
-      <created>1713422704368</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1713422704368</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Prime factors">
-      <created>1713422720967</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1713422720967</updated>
-    </task>
-    <task id="LOCAL-00039" summary="https://codeforces.com/problemset/problem/1692/G">
-      <created>1713760509991</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1713760509991</updated>
-    </task>
-    <task id="LOCAL-00040" summary="https://codeforces.com/problemset/problem/1380/A">
-      <created>1713845621773</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1713845621774</updated>
-    </task>
-    <task id="LOCAL-00041" summary="dry run">
-      <created>1713845641647</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1713845641647</updated>
-    </task>
-    <task id="LOCAL-00042" summary="https://www.naukri.com/code360/problems/longest-mountain-subarray_893069?leftPanelTabValue=SUBMISSION">
-      <created>1714050141464</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1714050141464</updated>
-    </task>
-    <task id="LOCAL-00043" summary="commit">
-      <created>1714225054139</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1714225054139</updated>
-    </task>
-    <task id="LOCAL-00044" summary="15-05-24">
-      <created>1715781329877</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1715781329877</updated>
-    </task>
-    <task id="LOCAL-00045" summary="17-05-24">
-      <created>1715934647237</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1715934647237</updated>
-    </task>
-    <task id="LOCAL-00046" summary="heapify">
-      <created>1715962890315</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1715962890316</updated>
-    </task>
-    <task id="LOCAL-00047" summary="QuickSelect algo">
-      <created>1716026283108</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1716026283108</updated>
-    </task>
-    <task id="LOCAL-00048" summary="QuickSelect algo">
-      <created>1716026351371</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1716026351371</updated>
-    </task>
-    <task id="LOCAL-00049" summary="21-09-24">
-      <created>1726925533778</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1726925533778</updated>
-    </task>
-    <task id="LOCAL-00050" summary="11-10-24">
-      <created>1728659103422</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1728659103423</updated>
-    </task>
-    <task id="LOCAL-00051" summary="23-12-24">
-      <created>1734937812382</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1734937812382</updated>
-    </task>
-    <task id="LOCAL-00052" summary="gfg potd">
-      <created>1735978796267</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1735978796267</updated>
-    </task>
-    <task id="LOCAL-00053" summary="CountPairs">
-      <created>1736065073892</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1736065073892</updated>
-    </task>
-    <task id="LOCAL-00054" summary="SumClosest">
-      <created>1736140116922</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1736140116922</updated>
-    </task>
-    <task id="LOCAL-00055" summary="CountPairs">
-      <created>1736224265332</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1736224265332</updated>
-    </task>
-    <task id="LOCAL-00056" summary="CountPairs">
-      <created>1736224309928</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1736224309928</updated>
-    </task>
-    <task id="LOCAL-00057" summary="countTriangles">
-      <created>1736319267118</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1736319267118</updated>
-    </task>
-    <task id="LOCAL-00058" summary="trees">
-      <created>1736345251770</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1736345251774</updated>
-    </task>
-    <task id="LOCAL-00059" summary="SubArraySum">
-      <created>1736402273584</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1736402273585</updated>
-    </task>
-    <task id="LOCAL-00060" summary="countDistinct">
-      <created>1736573602948</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1736573602948</updated>
     </task>
     <task id="LOCAL-00061" summary="longestUniqueSubstr">
       <created>1736574390584</created>
@@ -487,36 +353,211 @@
       <option name="project" value="LOCAL" />
       <updated>1738478004573</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="NQueen2">
+      <created>1738500127603</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1738500127603</updated>
+    </task>
+    <task id="LOCAL-00086" summary="https://www.geeksforgeeks.org/problems/height-of-binary-tree/1">
+      <created>1738552207600</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1738552207600</updated>
+    </task>
+    <task id="LOCAL-00087" summary="//https://www.geeksforgeeks.org/problems/mirror-tree/1">
+      <created>1738736081923</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1738736081924</updated>
+    </task>
+    <task id="LOCAL-00088" summary="//https://www.geeksforgeeks.org/problems/construct-tree-1/1">
+      <created>1738851007140</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1738851007141</updated>
+    </task>
+    <task id="LOCAL-00089" summary="//https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1">
+      <created>1738853422736</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1738853422736</updated>
+    </task>
+    <task id="LOCAL-00090" summary="https://www.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1">
+      <created>1739087607230</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1739087607230</updated>
+    </task>
+    <task id="LOCAL-00091" summary="https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1">
+      <created>1739115528186</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1739115528186</updated>
+    </task>
+    <task id="LOCAL-00092" summary="https://www.geeksforgeeks.org/problems/check-for-bst/1">
+      <created>1739340391811</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1739340391812</updated>
+    </task>
+    <task id="LOCAL-00093" summary="//https://www.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1">
+      <created>1739518447465</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1739518447465</updated>
+    </task>
+    <task id="LOCAL-00094" summary="https://www.geeksforgeeks.org/problems/inorder-traversal/1">
+      <created>1739518525979</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1739518525979</updated>
+    </task>
+    <task id="LOCAL-00095" summary="https://www.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1">
+      <created>1739518618701</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1739518618701</updated>
+    </task>
+    <task id="LOCAL-00096" summary="https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1">
+      <created>1739594411171</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1739594411171</updated>
+    </task>
+    <task id="LOCAL-00097" summary="https://www.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1">
+      <created>1739691187860</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1739691187861</updated>
+    </task>
+    <task id="LOCAL-00098" summary="https://www.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1">
+      <created>1740035912297</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1740035912297</updated>
+    </task>
+    <task id="LOCAL-00099" summary="https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1">
+      <created>1740139544525</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1740139544525</updated>
+    </task>
+    <task id="LOCAL-00100" summary="https://www.geeksforgeeks.org/problems/k-closest-points-to-origin--172242/1">
+      <created>1740150756605</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1740150756605</updated>
+    </task>
+    <task id="LOCAL-00101" summary="https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1">
+      <created>1740298742195</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1740298742195</updated>
+    </task>
+    <task id="LOCAL-00102" summary="https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1">
+      <created>1740314129124</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1740314129124</updated>
+    </task>
+    <task id="LOCAL-00103" summary="https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1">
+      <created>1740314211691</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1740314211691</updated>
+    </task>
+    <task id="LOCAL-00104" summary="https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1">
+      <created>1740314289422</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1740314289422</updated>
+    </task>
+    <task id="LOCAL-00105" summary="https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1">
+      <created>1740369612435</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1740369612436</updated>
+    </task>
+    <task id="LOCAL-00106" summary="https://www.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string0652/1">
+      <created>1741537468365</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1741537468365</updated>
+    </task>
+    <task id="LOCAL-00107" summary="https://www.geeksforgeeks.org/problems/number-of-coins1824/1">
+      <created>1742027461812</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1742027461814</updated>
+    </task>
+    <task id="LOCAL-00108" summary="//https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1">
+      <created>1742130016758</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1742130016758</updated>
+    </task>
+    <task id="LOCAL-00109" summary="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1">
+      <created>1742707954059</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1742707954060</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SubArraySum" />
-    <MESSAGE value="countDistinct" />
-    <MESSAGE value="longestUniqueSubstr" />
-    <MESSAGE value="BST" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/container-with-most-water0535/1" />
-    <MESSAGE value="//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1" />
-    <MESSAGE value="Avl Tree" />
-    <MESSAGE value="//https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1" />
-    <MESSAGE value="//https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/word-search/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/n-queen-problem0315/1" />
-    <MESSAGE value="https://www.geeksforgeeks.org/problems/level-order-traversal/1" />
-    <MESSAGE value="DSU" />
     <MESSAGE value="stash" />
-    <option name="LAST_COMMIT_MESSAGE" value="stash" />
+    <MESSAGE value="NQueen2" />
+    <MESSAGE value="backtracking" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/height-of-binary-tree/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/mirror-tree/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/construct-tree-1/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/check-for-bst/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/inorder-traversal/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/k-closest-points-to-origin--172242/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string0652/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/number-of-coins1824/1" />
+    <MESSAGE value="//https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1" />
+    <MESSAGE value="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,7 +574,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -545,11 +586,6 @@
           <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
           <line>17</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Stack/Stack_LinkedList.java</url>
@@ -1248,7 +1284,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>33</line>
+          <line>23</line>
           <option name="timeStamp" value="523" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1396,6 +1432,136 @@
           <line>29</line>
           <option name="timeStamp" value="570" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/Mirror.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="572" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/KthSmallest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/KthSmallest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="574" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/KthSmallest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="575" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/KthSmallest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/KthSmallest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/Tree/KthSmallest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/IsBalanced.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="593" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/MaxValidParantheses.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindPlatform.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindPlatform.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindPlatform.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/FindPlatform.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/minCoins.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/minCoins.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/minCoins.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
           <line>16</line>
@@ -1413,6 +1579,12 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/gfg_2025/recursion/KnapSack.java</url>
+          <line>7</line>
+          <properties field="memo" class="gfg_2025.recursion.KnapSack" />
+          <option name="timeStamp" value="603" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

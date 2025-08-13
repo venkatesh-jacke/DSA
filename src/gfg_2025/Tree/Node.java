@@ -41,9 +41,9 @@ public class Node {
         return root;
     }
 
-    public static List<Integer> printTree(Node root) {
+    public static void printTree(Node root) {
         List<Integer> res = new ArrayList<>();
-        if (root == null) return res;
+        if (root == null) System.out.println(res);
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         while (!q.isEmpty()) {
@@ -59,6 +59,12 @@ public class Node {
         while (!res.isEmpty() && res.get(res.size() - 1) == null) {
             res.remove(res.size() - 1);
         }
-        return res;
+        System.out.println(res);
+    }
+    public static void inOrder(Node root){
+        if(root==null) return;
+        inOrder(root.left);
+        System.out.print(root.data+" ");
+        inOrder(root.right);
     }
 }

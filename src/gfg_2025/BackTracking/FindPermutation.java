@@ -1,4 +1,4 @@
-package gfg_2025;
+package gfg_2025.BackTracking;
 
 import java.util.*;
 

@@ -3,14 +3,14 @@ package Heap;
 public class QuickSelectMax {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
-        System.out.println(kthLargest(arr, 0, arr.length - 1, 5));
+        System.out.println(kthLargest(arr, 0, arr.length - 1, 1));
     }
 
     public static int kthLargest(int[] arr, int low, int high, int k) {
         if (low <= high) {
             int pi = partition(arr, low, high);
 
-            //k-1 because it's a aeo based indexing
+            //k-1 because it's a zero based indexing
             if (pi == k - 1) {
                 return arr[pi];
             } else if (pi < k - 1) {

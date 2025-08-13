@@ -19,7 +19,7 @@ public class BitManipulation {
     }
 
 
-    //Always use '|' to unset the bits
+    //Always use '|' to set the bits
     public static int setIthBit(int n, int i) {
         return n | (1 << i);
     }

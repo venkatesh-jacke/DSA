@@ -22,21 +22,26 @@ class InPlaceMergeSort {
     private static void merge(int[] arr, int start, int mid, int end) {
         int i = start;
         int j = mid + 1;
-
         while (i <= mid && j <= end) {
             if (arr[i] <= arr[j]) {
+                // If left element is already smaller, move ahead
                 i++;
             } else {
+                // Otherwise, shift right element to correct position
                 int temp = arr[j];
-                // Shift elements to make space for the element from the right side
+
+                // Shift all elements from index i to j-1 one position to the right
                 for (int k = j; k > i; k--) {
                     arr[k] = arr[k - 1];
                 }
+
+                // Place arr[j] (saved in temp) at correct position
                 arr[i] = temp;
 
+                // Update indices
                 i++;
                 j++;
-                mid++;
+                mid++; // Since we inserted an element before mid, update mid pointer
             }
         }
     }
