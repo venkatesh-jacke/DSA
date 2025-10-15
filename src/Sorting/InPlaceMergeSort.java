@@ -13,7 +13,7 @@ class InPlaceMergeSort {
     private static void inPlaceMergeSort(int[] arr, int start, int end) {
         if (start < end) {
             int mid = start + (end - start) / 2;
-            inPlaceMergeSort(arr, start, mid);
+            inPlaceMergeSort(arr, start, mid); // mid inclusive
             inPlaceMergeSort(arr, mid + 1, end);
             merge(arr, start, mid, end);
         }

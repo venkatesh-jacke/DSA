@@ -13,7 +13,7 @@ public class MergeSort_2 {
     static void mergeSort(int arr[], int start, int end) {
         if (start< end) {
             int mid = start + (end - start) / 2; // to avoid overflow
-            mergeSort(arr, start, mid);
+            mergeSort(arr, start, mid); //mid inclusive
             mergeSort(arr, mid + 1, end);
             merge(arr, start, mid, end);
         }

@@ -4,55 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1">
-      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/FindPermutation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/NQueen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/NQueen2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/BackTracking/SudokuSolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/PrimesUptoN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RotateArrLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RotateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RotateMatrix2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SpirallyTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/FindMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NextSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/PrevSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/SudokuSolver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/CountWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/FindPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/KLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/LongestBoundedDiffSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/Tree/SumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg_2025/recursion/FindMaxSum.java" afterDir="false" />
+    <list default="true" id="ca33b743-fc1a-4cb0-be0a-d8a6a5e0a1b3" name="Changes" comment="13-08-2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Heap/QuickSelectMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/PrimeFactors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Math/PrimeFactors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/Sorting/InPlaceMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/FindPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/NQueen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Diameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Diameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA-JAVA/gfg_2025/Tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitManupulation/BitManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManupulation/BitManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/minCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/minCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/QuickSelectMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/QuickSelectMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/PrimeFactors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InPlaceMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg_2025/FindPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/FindPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg_2025/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/NQueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg_2025/NQueen2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/BackTracking/NQueen2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg_2025/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfg_2025/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg_2025/Tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +45,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java-Concepts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Venkatesh Jacke/IdeaProjects/JAVA&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -106,7 +62,20 @@
       <recent name="Graphs.UnDirected.Dsu" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsecutiveOnes">
+  <component name="RunManager" selected="Application.TestHashMap">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
+      <module name="DSA-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitManupulation.ConsecutiveOnes" />
       <module name="DSA-JAVA" />
@@ -120,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecreasingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.DecreasingQueue" />
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.CyclicSort" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Gcd" />
+    <configuration name="LinkedHashSetDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedHashSet.LinkedHashSetDS" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="LinkedHashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="DSA-JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="minCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.minCoins" />
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.TestHashMap" />
       <module name="DSA-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHashMap" />
+        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.LinkedHashSetDS" />
         <item itemvalue="Application.ConsecutiveOnes" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.minCoins" />
-        <item itemvalue="Application.Gcd" />
-        <item itemvalue="Application.DecreasingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697291673484</updated>
-    </task>
-    <task id="LOCAL-00061" summary="longestUniqueSubstr">
-      <created>1736574390584</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1736574390584</updated>
     </task>
     <task id="LOCAL-00062" summary="BST">
       <created>1736583960365</created>
@@ -528,11 +483,17 @@
       <option name="project" value="LOCAL" />
       <updated>1742707954060</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="13-08-2025">
+      <created>1755063471811</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1755063471812</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stash" />
     <MESSAGE value="NQueen2" />
     <MESSAGE value="backtracking" />
     <MESSAGE value="https://www.geeksforgeeks.org/problems/height-of-binary-tree/1" />
@@ -557,7 +518,8 @@
     <MESSAGE value="https://www.geeksforgeeks.org/problems/number-of-coins1824/1" />
     <MESSAGE value="//https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1" />
     <MESSAGE value="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1" />
+    <MESSAGE value="13-08-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-08-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1561,6 +1523,11 @@
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
           <line>17</line>
           <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Sorting/BubbleSort.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="622" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Recursion/PrintNumbers.java</url>
