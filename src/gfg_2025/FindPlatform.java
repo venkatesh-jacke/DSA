@@ -1,6 +1,6 @@
 package gfg_2025;
 
-import javafx.util.Pair;
+import Util.Pair;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
