@@ -6,7 +6,11 @@ import java.util.Arrays;
 //here the matrix is square
 public class RotateMatrix {
     public static void main(String[] args) {
-        int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int[][] mat = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
         rotate(mat);
         System.out.println(Arrays.deepToString(mat));
     }
@@ -21,8 +25,8 @@ public class RotateMatrix {
             }
         }
 
-        for (int i = 0; i < n; i++) {
-            reverse(mat[i]);
+        for (int[] row : mat) {
+            reverse(row);
         }
 
     }
@@ -39,3 +43,10 @@ public class RotateMatrix {
     }
 }
 
+/*
+Clockwise (90°)
+Transpose -> reverse rows
+Transpose means (i,j) -> (j,i)
+Anti-clockwise (90°)
+Transpose -> reverse cols
+*/

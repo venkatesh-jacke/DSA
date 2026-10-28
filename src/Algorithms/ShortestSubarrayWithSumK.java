@@ -32,6 +32,6 @@ public class ShortestSubarrayWithSumK {
 /*
 Observation:-
 If you see we are finding the minimum window length of arr which holds the sum K
-This is like sliding window technique where we don't know thw window size initially
+This is like sliding window technique where we don't know the window size initially
 
 */

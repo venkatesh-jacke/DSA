@@ -3,10 +3,14 @@ package Arrays;
 import java.util.Arrays;
 
 //Rotate matrix to 90 degree
-//here the matrix is Non square
+//here the matrix is Non-square
 public class RotateMatrix2 {
     public static void main(String[] args) {
-        int[][] mat = {{1, 2}, {3, 4}, {5, 6}};
+        int[][] mat = {
+                {1, 2},
+                {3, 4},
+                {5, 6}
+        };
         System.out.println(Arrays.deepToString(rotate(mat)));
     }
 
@@ -16,6 +20,7 @@ public class RotateMatrix2 {
         int[][] ans = new int[n][m];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
+                //Old column becomes new row. Old row becomes new column, but reversed.
                 ans[j][m - 1 - i] = mat[i][j];
             }
         }

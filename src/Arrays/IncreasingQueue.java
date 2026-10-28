@@ -25,7 +25,7 @@ public class IncreasingQueue {
                 firstSmallerToRight[q.remove()] = arr[i];
             }
             if (!q.isEmpty())
-                firstSmallerToLeft[i] = arr[q.peek()]; //If the q is not emptier than it contains value smaller to its left indics
+                firstSmallerToLeft[i] = arr[q.peek()]; //If the q is not emptier than it contains value smaller to its left indices
             q.push(i);
             System.out.println(q);
         }

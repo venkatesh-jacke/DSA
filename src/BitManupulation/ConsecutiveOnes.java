@@ -5,7 +5,7 @@ package BitManupulation;
 
 public class ConsecutiveOnes {
     public static void main(String[] args) {
-        int n = 31;
+        int n = 111;
         int count = 0;
         while (n > 0) {
             n = n & (n << 1);
